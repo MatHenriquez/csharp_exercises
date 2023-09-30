@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+Console.WriteLine("Hello, World!"); // Imprime un mensaje en consola con salto de línea al final.
+
+// console.WriteLine("Hello World!"); -----> Error por la "c" minúscula.
+// Console.WriteLine('Hello World!'); -----> Error por uso de comillas simples.
+
+
+// Esto es un comentario de una sola línea.
+
+Console.Write("Congratulations!"); // Imprime un mensaje en consola sin salto de línea al final.
+Console.Write(" ");
+Console.Write("You wrote your first lines of code.");
