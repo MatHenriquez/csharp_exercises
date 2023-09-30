@@ -11,3 +11,12 @@ Console.WriteLine("Hello, World!"); // Imprime un mensaje en consola con salto d
 Console.Write("Congratulations!"); // Imprime un mensaje en consola sin salto de línea al final.
 Console.Write(" ");
 Console.Write("You wrote your first lines of code.");
+
+
+/*
+ * Console   -----> Clase
+ * .         -----> Operador de acceso al miembro
+ * WriteLine -----> Método
+ * ()        -----> Operador de invocación de método
+ * ;         -----> Operador de final de instrucción
+ */
