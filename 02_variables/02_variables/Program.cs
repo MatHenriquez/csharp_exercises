@@ -30,3 +30,17 @@ Console.WriteLine(firstName);
 // Variables locales de tipo implícito
 var message = "Hello, World!"; // La palabra clave 'var' indica al compilador de C# que el tipo de datos está implícito en el valor asignado. La variable DEBE inicializarse.
 Console.WriteLine(message);
+
+// Desafío
+
+// string firstName = "Bob";
+short messagesCount = 3;
+float temperature = 34.4F;
+
+Console.Write("Hello, ");
+Console.Write(firstName);
+Console.Write("! You have ");
+Console.Write(messagesCount);
+Console.Write(" messages in your inbox. The temperature is ");
+Console.Write(temperature);
+Console.Write(" celsius.");
