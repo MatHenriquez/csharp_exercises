@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\01_console_messages\\01_console",
+    "\\01_console_messages\\01_console\\01_console"
   ],
   "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false

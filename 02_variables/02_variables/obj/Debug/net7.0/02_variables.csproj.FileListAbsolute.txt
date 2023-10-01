@@ -1,0 +1,15 @@
+E:\Programming\csharp_freeCodeCamp\02_variables\02_variables\bin\Debug\net7.0\02_variables.exe
+E:\Programming\csharp_freeCodeCamp\02_variables\02_variables\bin\Debug\net7.0\02_variables.deps.json
+E:\Programming\csharp_freeCodeCamp\02_variables\02_variables\bin\Debug\net7.0\02_variables.runtimeconfig.json
+E:\Programming\csharp_freeCodeCamp\02_variables\02_variables\bin\Debug\net7.0\02_variables.dll
+E:\Programming\csharp_freeCodeCamp\02_variables\02_variables\bin\Debug\net7.0\02_variables.pdb
+E:\Programming\csharp_freeCodeCamp\02_variables\02_variables\obj\Debug\net7.0\02_variables.csproj.AssemblyReference.cache
+E:\Programming\csharp_freeCodeCamp\02_variables\02_variables\obj\Debug\net7.0\02_variables.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\csharp_freeCodeCamp\02_variables\02_variables\obj\Debug\net7.0\02_variables.AssemblyInfoInputs.cache
+E:\Programming\csharp_freeCodeCamp\02_variables\02_variables\obj\Debug\net7.0\02_variables.AssemblyInfo.cs
+E:\Programming\csharp_freeCodeCamp\02_variables\02_variables\obj\Debug\net7.0\02_variables.csproj.CoreCompileInputs.cache
+E:\Programming\csharp_freeCodeCamp\02_variables\02_variables\obj\Debug\net7.0\02_variables.dll
+E:\Programming\csharp_freeCodeCamp\02_variables\02_variables\obj\Debug\net7.0\refint\02_variables.dll
+E:\Programming\csharp_freeCodeCamp\02_variables\02_variables\obj\Debug\net7.0\02_variables.pdb
+E:\Programming\csharp_freeCodeCamp\02_variables\02_variables\obj\Debug\net7.0\02_variables.genruntimeconfig.cache
+E:\Programming\csharp_freeCodeCamp\02_variables\02_variables\obj\Debug\net7.0\ref\02_variables.dll
