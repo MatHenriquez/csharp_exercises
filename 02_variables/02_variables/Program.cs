@@ -12,7 +12,7 @@ Console.WriteLine(true);
 Console.WriteLine(false);
 
 string firstName; // Declaro mi variable firstName de tipo string.
-firstName = "Bob"; // Le asigno un valor a mi variable. El '=' se conoce como 'operador de asignación' (operación 'set').
+firstName = "Bob"; // Le asigno un valor a mi variable. El '=' se conoce como 'operador de asignación' (operación 'set'). La asignación se produce de derecha a izquierda.
 Console.WriteLine(firstName); // Imprimo en consola el valor almacenado en firstName (operación 'get').
 firstName = "Liem"; // Asigno un nuevo valor a la variable.
 Console.WriteLine(firstName);
