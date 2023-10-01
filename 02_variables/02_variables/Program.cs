@@ -10,3 +10,19 @@ Console.WriteLine(12.39816m); // Imprime el literal de tipo decimal 12.39816. m 
 // Literales de tipo booleano
 Console.WriteLine(true);
 Console.WriteLine(false);
+
+string firstName; // Declaro mi variable firstName de tipo string.
+firstName = "Bob"; // Le asigno un valor a mi variable. El '=' se conoce como 'operador de asignación' (operación 'set').
+Console.WriteLine(firstName); // Imprimo en consola el valor almacenado en firstName (operación 'get').
+firstName = "Liem"; // Asigno un nuevo valor a la variable.
+Console.WriteLine(firstName);
+firstName = "Isabella";
+Console.WriteLine(firstName);
+firstName = "Yasmin";
+Console.WriteLine(firstName);
+
+/*
+ * string lastName;
+ * Console.WriteLine(lastName); // Error: la variable secondName no tiene un valor asignado.
+ * string lastName = "Watson"; // Inicializo la variable (le asigno un valor en la misma línea donde la declaro).
+ */
