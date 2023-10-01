@@ -26,3 +26,7 @@ Console.WriteLine(firstName);
  * Console.WriteLine(lastName); // Error: la variable secondName no tiene un valor asignado.
  * string lastName = "Watson"; // Inicializo la variable (le asigno un valor en la misma línea donde la declaro).
  */
+
+// Variables locales de tipo implícito
+var message = "Hello, World!"; // La palabra clave 'var' indica al compilador de C# que el tipo de datos está implícito en el valor asignado. La variable DEBE inicializarse.
+Console.WriteLine(message);
