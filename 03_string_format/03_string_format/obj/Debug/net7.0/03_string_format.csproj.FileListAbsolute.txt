@@ -1,0 +1,15 @@
+G:\Programming\csharp_freeCodeCamp\03_string_format\03_string_format\bin\Debug\net7.0\03_string_format.exe
+G:\Programming\csharp_freeCodeCamp\03_string_format\03_string_format\bin\Debug\net7.0\03_string_format.deps.json
+G:\Programming\csharp_freeCodeCamp\03_string_format\03_string_format\bin\Debug\net7.0\03_string_format.runtimeconfig.json
+G:\Programming\csharp_freeCodeCamp\03_string_format\03_string_format\bin\Debug\net7.0\03_string_format.dll
+G:\Programming\csharp_freeCodeCamp\03_string_format\03_string_format\bin\Debug\net7.0\03_string_format.pdb
+G:\Programming\csharp_freeCodeCamp\03_string_format\03_string_format\obj\Debug\net7.0\03_string_format.csproj.AssemblyReference.cache
+G:\Programming\csharp_freeCodeCamp\03_string_format\03_string_format\obj\Debug\net7.0\03_string_format.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\csharp_freeCodeCamp\03_string_format\03_string_format\obj\Debug\net7.0\03_string_format.AssemblyInfoInputs.cache
+G:\Programming\csharp_freeCodeCamp\03_string_format\03_string_format\obj\Debug\net7.0\03_string_format.AssemblyInfo.cs
+G:\Programming\csharp_freeCodeCamp\03_string_format\03_string_format\obj\Debug\net7.0\03_string_format.csproj.CoreCompileInputs.cache
+G:\Programming\csharp_freeCodeCamp\03_string_format\03_string_format\obj\Debug\net7.0\03_string_format.dll
+G:\Programming\csharp_freeCodeCamp\03_string_format\03_string_format\obj\Debug\net7.0\refint\03_string_format.dll
+G:\Programming\csharp_freeCodeCamp\03_string_format\03_string_format\obj\Debug\net7.0\03_string_format.pdb
+G:\Programming\csharp_freeCodeCamp\03_string_format\03_string_format\obj\Debug\net7.0\03_string_format.genruntimeconfig.cache
+G:\Programming\csharp_freeCodeCamp\03_string_format\03_string_format\obj\Debug\net7.0\ref\03_string_format.dll
