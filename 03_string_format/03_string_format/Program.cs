@@ -33,3 +33,8 @@ Console.WriteLine(@"c:\invoices\app.exe -j");
 string firstName = "Bob";
 string message = "Hello " + firstName; // El operador de concatenación de strings (+) anexa un string al final de otro.
 Console.WriteLine(message);
+
+// Concatenación de varias variables y cadenas de literales.
+string greeting = "Hello";
+string greetingMessage = greeting + " " + firstName + "!";
+Console.WriteLine(greetingMessage);
