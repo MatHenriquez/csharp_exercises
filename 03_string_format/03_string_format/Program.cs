@@ -38,3 +38,13 @@ Console.WriteLine(message);
 string greeting = "Hello";
 string greetingMessage = greeting + " " + firstName + "!";
 Console.WriteLine(greetingMessage);
+
+// Interpolación de cadenas.
+string interpolatedMessage = $"{greeting} {firstName}!"; // La acdena literal se convierte en plantilla cuando tiene como prefijo el caracter '$'. Una expresión de interpolación se indica con un símbolo de llave de apertura y cierre '{}'.
+Console.WriteLine(interpolatedMessage);
+
+int version = 11;
+string updateText = "Update to Windows";
+string consoleMessage = $"{updateText} {version}";
+
+Console.WriteLine(consoleMessage);
