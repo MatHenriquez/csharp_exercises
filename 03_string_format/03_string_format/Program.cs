@@ -48,3 +48,13 @@ string updateText = "Update to Windows";
 string consoleMessage = $"{updateText} {version}";
 
 Console.WriteLine(consoleMessage);
+
+// Evitar las variables intermedias
+/* int version = 11;
+ * string updateText = "Update to Windows";
+ * Console.WriteLine($"{updateText} {version}!");
+*/
+
+// Combinación de los literales textuales y la interpolación de cadenas
+string projectName = "First-Project";
+Console.Write($@"C:\Output\{projectName}\Data");
