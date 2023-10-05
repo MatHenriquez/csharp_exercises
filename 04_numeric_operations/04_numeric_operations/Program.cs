@@ -41,3 +41,11 @@ decimal decimalQuotient = 7.0m / 5;         // Guarda el valor exacto.
  * decimal decimalQuotient = 7 / 5;         // Guarda sólo el valor entero. 
  */
 Console.WriteLine($"Decimal quotient: {decimalQuotient}");
+
+
+// Incorporación de código para efectuar la división con datos decimales literales
+
+int first = 7;
+int second = 5;
+decimal myQuotient = (decimal)first / (decimal)second; // Esta conversión de datos que indica al compilador que trate temporalmente un valor como si fuera otro tipo de datos.
+Console.WriteLine(myQuotient);
