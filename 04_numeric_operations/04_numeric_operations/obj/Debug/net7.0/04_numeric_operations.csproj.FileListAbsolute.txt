@@ -1,0 +1,15 @@
+G:\Programming\csharp_freeCodeCamp\04_numeric_operations\04_numeric_operations\bin\Debug\net7.0\04_numeric_operations.exe
+G:\Programming\csharp_freeCodeCamp\04_numeric_operations\04_numeric_operations\bin\Debug\net7.0\04_numeric_operations.deps.json
+G:\Programming\csharp_freeCodeCamp\04_numeric_operations\04_numeric_operations\bin\Debug\net7.0\04_numeric_operations.runtimeconfig.json
+G:\Programming\csharp_freeCodeCamp\04_numeric_operations\04_numeric_operations\bin\Debug\net7.0\04_numeric_operations.dll
+G:\Programming\csharp_freeCodeCamp\04_numeric_operations\04_numeric_operations\bin\Debug\net7.0\04_numeric_operations.pdb
+G:\Programming\csharp_freeCodeCamp\04_numeric_operations\04_numeric_operations\obj\Debug\net7.0\04_numeric_operations.csproj.AssemblyReference.cache
+G:\Programming\csharp_freeCodeCamp\04_numeric_operations\04_numeric_operations\obj\Debug\net7.0\04_numeric_operations.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\csharp_freeCodeCamp\04_numeric_operations\04_numeric_operations\obj\Debug\net7.0\04_numeric_operations.AssemblyInfoInputs.cache
+G:\Programming\csharp_freeCodeCamp\04_numeric_operations\04_numeric_operations\obj\Debug\net7.0\04_numeric_operations.AssemblyInfo.cs
+G:\Programming\csharp_freeCodeCamp\04_numeric_operations\04_numeric_operations\obj\Debug\net7.0\04_numeric_operations.csproj.CoreCompileInputs.cache
+G:\Programming\csharp_freeCodeCamp\04_numeric_operations\04_numeric_operations\obj\Debug\net7.0\04_numeric_operations.dll
+G:\Programming\csharp_freeCodeCamp\04_numeric_operations\04_numeric_operations\obj\Debug\net7.0\refint\04_numeric_operations.dll
+G:\Programming\csharp_freeCodeCamp\04_numeric_operations\04_numeric_operations\obj\Debug\net7.0\04_numeric_operations.pdb
+G:\Programming\csharp_freeCodeCamp\04_numeric_operations\04_numeric_operations\obj\Debug\net7.0\04_numeric_operations.genruntimeconfig.cache
+G:\Programming\csharp_freeCodeCamp\04_numeric_operations\04_numeric_operations\obj\Debug\net7.0\ref\04_numeric_operations.dll

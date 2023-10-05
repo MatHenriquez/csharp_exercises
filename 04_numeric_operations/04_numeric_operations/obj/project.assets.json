@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Programming\\csharp_freeCodeCamp\\Nueva carpeta\\04_numeric_operations\\04_numeric_operations\\04_numeric_operations.csproj",
+      "projectUniqueName": "G:\\Programming\\csharp_freeCodeCamp\\04_numeric_operations\\04_numeric_operations\\04_numeric_operations.csproj",
       "projectName": "04_numeric_operations",
-      "projectPath": "G:\\Programming\\csharp_freeCodeCamp\\Nueva carpeta\\04_numeric_operations\\04_numeric_operations\\04_numeric_operations.csproj",
+      "projectPath": "G:\\Programming\\csharp_freeCodeCamp\\04_numeric_operations\\04_numeric_operations\\04_numeric_operations.csproj",
       "packagesPath": "C:\\Users\\trechi\\.nuget\\packages\\",
-      "outputPath": "G:\\Programming\\csharp_freeCodeCamp\\Nueva carpeta\\04_numeric_operations\\04_numeric_operations\\obj\\",
+      "outputPath": "G:\\Programming\\csharp_freeCodeCamp\\04_numeric_operations\\04_numeric_operations\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\trechi\\AppData\\Roaming\\NuGet\\NuGet.Config",

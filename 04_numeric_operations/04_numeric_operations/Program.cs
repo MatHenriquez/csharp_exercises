@@ -19,3 +19,25 @@ Console.WriteLine(firstName + " sold " + widgetsSold + 7 + " widgets."); // 'wid
 // Adición de paréntesis para aclarar la intención al compilador.
 
 Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets."); // El símbolo de paréntesis () es otro operador sobrecargado. En este caso, forman el operador de orden de las operaciones. Ahora, 'widgetsSold' y 7 se suman.
+
+int sum = 7 + 5;        // + es el operador de suma
+int difference = 7 - 5; // - es el operador de resta
+int product = 7 * 5;    // * es el operador de multiplicación
+int quotient = 7 / 5;   // / es el operador de división ----> Queda 1 (uno) porque int no puede contener la parte decimal. Trunca el valor  su parte entera.
+
+Console.WriteLine("Sum: " + sum);
+Console.WriteLine("Difference: " + difference);
+Console.WriteLine("Product: " + product);
+Console.WriteLine("Quotient: " + quotient);
+
+
+decimal decimalQuotient = 7.0m / 5;         // Guarda el valor exacto. 
+/*  
+ * decimal decimalQuotient = 7 / 5.0m;      // Guarda el valor exacto. 
+ * decimal decimalQuotient = 7.0m / 5.0m;   // Guarda el valor exacto. 
+ * int decimalQuotient = 7 / 5.0m;          // Error.
+ * int decimalQuotient = 7.0m / 5;          // Error.
+ * int decimalQuotient = 7.0m / 5.0m;       // Error.
+ * decimal decimalQuotient = 7 / 5;         // Guarda sólo el valor entero. 
+ */
+Console.WriteLine($"Decimal quotient: {decimalQuotient}");
