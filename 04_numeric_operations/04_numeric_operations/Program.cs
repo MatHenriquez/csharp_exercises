@@ -103,3 +103,13 @@ Console.WriteLine("Second decrement: " + testValue);    // 2
 
 testValue--;
 Console.WriteLine("Third decrement: " + testValue);     // 1
+
+// Colocación de los operadores de incremento y decremento
+
+// Uso del operador de incremento antes y después del valor
+int myValue = 1;
+myValue++;
+Console.WriteLine("First: " + myValue);         // 2
+Console.WriteLine($"Second: {myValue++}");      // 2
+Console.WriteLine("Third: " + myValue);         // 3
+Console.WriteLine("Fourth: " + (++myValue));    // 4
