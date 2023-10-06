@@ -110,6 +110,10 @@ Console.WriteLine("Third decrement: " + testValue);     // 1
 int myValue = 1;
 myValue++;
 Console.WriteLine("First: " + myValue);         // 2
-Console.WriteLine($"Second: {myValue++}");      // 2
+Console.WriteLine($"Second: {myValue++}");      // 2 ---> Hay dos pasos en esta línea:
+// 1. Se recupera el valor actual de la variable value y se usa en la operación de interpolación de cadenas.
+// 2. Se incrementa el valor.
 Console.WriteLine("Third: " + myValue);         // 3
-Console.WriteLine("Fourth: " + (++myValue));    // 4
+Console.WriteLine("Fourth: " + (++myValue));    // 4 ---> Aquí, el orden de las operaciones cambia porque el operador ++ se coloca delante del operando value.
+                                                // 1. Se incrementa el valor.
+                                                // 2. Se recupera el nuevo valor incrementado de la variable value y se usa en la operación de cadena.
