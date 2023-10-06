@@ -67,3 +67,15 @@ int value1 = 3 + 4 * 5;
 int value2 = (3 + 4) * 5;
 Console.WriteLine(value1); // 23
 Console.WriteLine(value2); // 35
+
+// Incremento y decremento de valores
+
+// Operador +=: suma y asigna el valor situado a la derecha del operador al valor situado a la izquierda del operador.
+int value = 0;      // value is now 0
+value = value + 5;  // value is now 5
+value += 5;         // value is now 10
+
+// El operador ++ incrementa el valor de la variable en 1
+value = value + 1;  // value is now 11
+value += 1;         // value is now 12
+value++;            // value is now 13
