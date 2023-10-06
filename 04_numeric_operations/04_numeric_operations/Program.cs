@@ -82,3 +82,24 @@ value++;            // value is now 13
 
 // Estas mismas técnicas se pueden usar en restas, multiplicaciones y otras muchas operaciones. 
 // Los operadores como +=, -=, *=, ++ y -- se conocen como operadores de asignación compuesta porque realizan alguna operación además de asignar el resultado a la variable. El operador += se denomina específicamente operador de asignación de suma.
+
+int testValue = 1;
+Console.WriteLine("Initial value: " + testValue);       // 1
+
+testValue = testValue + 1;
+Console.WriteLine("First increment: " + testValue);     // 2
+
+testValue += 1;
+Console.WriteLine("Second increment: " + testValue);    // 3
+
+testValue++;
+Console.WriteLine("Third increment: " + testValue);     // 4
+
+testValue = testValue - 1;
+Console.WriteLine("First decrement: " + testValue);     // 3
+
+testValue -= 1;
+Console.WriteLine("Second decrement: " + testValue);    // 2
+
+testValue--;
+Console.WriteLine("Third decrement: " + testValue);     // 1
