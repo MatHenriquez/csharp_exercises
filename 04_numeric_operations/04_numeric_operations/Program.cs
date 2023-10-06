@@ -79,3 +79,6 @@ value += 5;         // value is now 10
 value = value + 1;  // value is now 11
 value += 1;         // value is now 12
 value++;            // value is now 13
+
+// Estas mismas técnicas se pueden usar en restas, multiplicaciones y otras muchas operaciones. 
+// Los operadores como +=, -=, *=, ++ y -- se conocen como operadores de asignación compuesta porque realizan alguna operación además de asignar el resultado a la variable. El operador += se denomina específicamente operador de asignación de suma.
