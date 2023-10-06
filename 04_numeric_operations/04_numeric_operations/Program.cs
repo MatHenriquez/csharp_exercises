@@ -49,3 +49,8 @@ int first = 7;
 int second = 5;
 decimal myQuotient = (decimal)first / (decimal)second; // Esta conversión de datos que indica al compilador que trate temporalmente un valor como si fuera otro tipo de datos.
 Console.WriteLine(myQuotient);
+
+// Módulo
+
+Console.WriteLine($"Modulus of 200 / 5 : {200 % 5}"); // 0
+Console.WriteLine($"Modulus of 7 / 5 : {7 % 5}"); // 2 (redondea para arriba)
