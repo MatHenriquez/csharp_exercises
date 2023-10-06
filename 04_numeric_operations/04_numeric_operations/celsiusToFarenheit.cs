@@ -2,7 +2,7 @@
 
 namespace numericOperations
 {
-    public class CelsiusToFarenheit
+    public class CelsiusToFahrenheit
     {
         public double Convert(double celsius)
         {

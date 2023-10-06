@@ -128,10 +128,16 @@ namespace numericOperations
                                                             // 2. Se recupera el nuevo valor incrementado de la variable value y se usa en la operación de cadena.
 
 
-            CelsiusToFarenheit converter = new CelsiusToFarenheit();
+            CelsiusToFahrenheit converter = new CelsiusToFahrenheit();
             double celsiusTemp = 24.0;
-            double farenheitTemp = converter.Convert(celsiusTemp);
-            Console.WriteLine(farenheitTemp);
+            double fahrenheitTemp = converter.Convert(celsiusTemp);
+            Console.WriteLine(fahrenheitTemp);
+
+            // O bien, pasar de fahrenheit a celsius:
+            int fahrenheit = 94;
+            decimal celsius = (fahrenheit - 32) * (5m / 9);
+            Console.WriteLine($"The temperature is {celsius}° celsius");
+             
         }
     }
 }
