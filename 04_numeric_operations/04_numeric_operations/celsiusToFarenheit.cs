@@ -1,14 +1,13 @@
 ﻿using System;
 
-namespace HelloWorldApp
+namespace numericOperations
 {
-    public class Hello
+    public class CelsiusToFarenheit
     {
-        public void Greeting()
+        public double Convert(double celsius)
         {
-            Console.WriteLine("Hello World");
-            Console.ReadKey();
-            return;
+            // Código de conversión de Celsius a Fahrenheit
+            return (celsius * 9 / 5) + 32;
         }
     }
 }
