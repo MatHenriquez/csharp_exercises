@@ -127,6 +127,11 @@ namespace numericOperations
                                                             // 1. Se incrementa el valor.
                                                             // 2. Se recupera el nuevo valor incrementado de la variable value y se usa en la operación de cadena.
 
+
+            CelsiusToFarenheit converter = new CelsiusToFarenheit();
+            double celsiusTemp = 24.0;
+            double farenheitTemp = converter.Convert(celsiusTemp);
+            Console.WriteLine(farenheitTemp);
         }
     }
 }
