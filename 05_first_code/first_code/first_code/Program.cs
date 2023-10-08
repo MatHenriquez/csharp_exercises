@@ -1,6 +1,4 @@
-﻿// Ejercicio: calcular el promedio de los alumnos.
-
-// initialize variables - graded assignments 
+﻿// initialize variables - graded assignments 
 int currentAssignments = 5;
 
 int sophia1 = 93;
@@ -37,7 +35,8 @@ decimal nicolasScore = (decimal)nicolasSum / currentAssignments;
 decimal zahirahScore = (decimal)zahirahSum / currentAssignments;
 decimal jeongScore = (decimal)jeongSum / currentAssignments;
 
-Console.WriteLine("Sophia: " + sophiaScore + " A");
-Console.WriteLine("Nicolas: " + nicolasScore + " B");
-Console.WriteLine("Zahirah: " + zahirahScore + " B");
-Console.WriteLine("Jeong: " + jeongScore + " A");
+Console.WriteLine("Student Grade\n");
+Console.WriteLine("Sophia:\t\t " + sophiaScore + " \tA");
+Console.WriteLine("Nicolas:\t " + nicolasScore + " \tB");
+Console.WriteLine("Zahirah:\t " + zahirahScore + " \tB");
+Console.WriteLine("Jeong:\t\t " + jeongScore + " \tA");
