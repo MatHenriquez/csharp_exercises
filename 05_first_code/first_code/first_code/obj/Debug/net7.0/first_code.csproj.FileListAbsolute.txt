@@ -1,0 +1,14 @@
+G:\Programming\courses\csharp_freeCodeCamp\05_first_code\first_code\first_code\bin\Debug\net7.0\first_code.exe
+G:\Programming\courses\csharp_freeCodeCamp\05_first_code\first_code\first_code\bin\Debug\net7.0\first_code.deps.json
+G:\Programming\courses\csharp_freeCodeCamp\05_first_code\first_code\first_code\bin\Debug\net7.0\first_code.runtimeconfig.json
+G:\Programming\courses\csharp_freeCodeCamp\05_first_code\first_code\first_code\bin\Debug\net7.0\first_code.dll
+G:\Programming\courses\csharp_freeCodeCamp\05_first_code\first_code\first_code\bin\Debug\net7.0\first_code.pdb
+G:\Programming\courses\csharp_freeCodeCamp\05_first_code\first_code\first_code\obj\Debug\net7.0\first_code.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\courses\csharp_freeCodeCamp\05_first_code\first_code\first_code\obj\Debug\net7.0\first_code.AssemblyInfoInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\05_first_code\first_code\first_code\obj\Debug\net7.0\first_code.AssemblyInfo.cs
+G:\Programming\courses\csharp_freeCodeCamp\05_first_code\first_code\first_code\obj\Debug\net7.0\first_code.csproj.CoreCompileInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\05_first_code\first_code\first_code\obj\Debug\net7.0\first_code.dll
+G:\Programming\courses\csharp_freeCodeCamp\05_first_code\first_code\first_code\obj\Debug\net7.0\refint\first_code.dll
+G:\Programming\courses\csharp_freeCodeCamp\05_first_code\first_code\first_code\obj\Debug\net7.0\first_code.pdb
+G:\Programming\courses\csharp_freeCodeCamp\05_first_code\first_code\first_code\obj\Debug\net7.0\first_code.genruntimeconfig.cache
+G:\Programming\courses\csharp_freeCodeCamp\05_first_code\first_code\first_code\obj\Debug\net7.0\ref\first_code.dll
