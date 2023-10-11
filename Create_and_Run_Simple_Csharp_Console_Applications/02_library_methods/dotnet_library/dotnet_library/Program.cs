@@ -1,4 +1,4 @@
-﻿Random dice = new Random(); // Generador de números aleatorios.
+﻿Random dice = new Random(); // Generador de números aleatorios. dice es un objeto, una instancia de una clase (Random).
 int roll = dice.Next(1, 7); // Obtengo un número del 1 al 6.
 Console.WriteLine(roll);    // Muestro el número obtenido.
 
