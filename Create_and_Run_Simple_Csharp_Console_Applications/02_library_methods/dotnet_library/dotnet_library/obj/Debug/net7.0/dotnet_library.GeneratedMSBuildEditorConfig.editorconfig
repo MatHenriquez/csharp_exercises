@@ -1,0 +1,11 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = dotnet_library
+build_property.ProjectDir = G:\Programming\courses\csharp_freeCodeCamp\Create_and_Run_Simple_Csharp_Console_Applications\02_library_methods\dotnet_library\dotnet_library\
