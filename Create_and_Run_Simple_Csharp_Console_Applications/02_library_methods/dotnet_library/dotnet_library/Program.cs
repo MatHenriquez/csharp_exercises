@@ -40,3 +40,13 @@ Console.WriteLine("Presione una tecla para seguir viendo la info");
 Console.ReadKey();
 Console.Clear();
 
+// Versiones sobrecargadas del método Random.Next()
+int roll1 = dice.Next();        // No se establece un límite superior e inferior. El método devolverá valores entre 0 y 2,147,483,647 (valor máximo que int puede almacenar).
+int roll2 = dice.Next(101);     // Esta versión especifica el valor máximo como límite superior. Dará un valor aleatorio entre 0 y 100.
+int roll3 = dice.Next(50, 101); // Especifica el valor mínimo y el valor máximo. Da un valor aleatorio entre 50 y 100.
+
+Console.WriteLine($"First roll: {roll1}"); 
+Console.WriteLine($"Second roll: {roll2}"); 
+Console.WriteLine($"Third roll: {roll3}");
+
+
