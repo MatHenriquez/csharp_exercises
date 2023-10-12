@@ -28,12 +28,19 @@ if(total < 15)
 
 // Expresiones booleanas
 
-string message = "The quick brown fox jumps over the lazy dog.";
-bool result = message.Contains("dog");
+/*
+ * string message = "The quick brown fox jumps over the lazy dog.";
+ * bool result = message.Contains("dog");
+ * Console.WriteLine(result);
+ * if(message.Contains("fox"))
+ * {
+ * Console.WriteLine("What does the fox say?");
+ * }
+*/
 
-Console.WriteLine(result);
+// Dobles
 
-if(message.Contains("fox"))
+if((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
 {
-    Console.WriteLine("What does the fox say?");
+    Console.WriteLine("You roll doubles! +2 bonus to total!");
 }
