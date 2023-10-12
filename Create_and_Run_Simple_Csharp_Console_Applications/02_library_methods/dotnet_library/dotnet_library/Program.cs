@@ -18,3 +18,14 @@ Console.WriteLine(roll);    // Muestro el número obtenido.
 
 // Aunque un método devuelve un valor, podemos llamarlo sin usar el valor devuelto.
 Console.WriteLine(dice.Next(1, 7));
+
+// Parámetros de entrada
+
+/*
+ * La información que consume un método se conoce como parámetro. Un método puede usar uno o varios parámetros para realizar su tarea o ninguno en absoluto.
+ * Los términos "parámetro" y "argumento" se suelen usar indistintamente. Sin embargo, "parámetro" hace referencia a la variable que se usa dentro del método. El "argumento" es el valor que se pasa cuando se llama al método.
+ */
+
+// Métodos sobrecargados
+
+// Muchos métodos de la biblioteca de clases .NET tienen firmas de método sobrecargadas. Entre otras cosas, esto nos permite llamar al método con o sin parámetros.
