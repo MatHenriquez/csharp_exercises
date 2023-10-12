@@ -15,3 +15,13 @@ int roll3 = dice.Next(1, 7);
 int total = roll1  + roll2 + roll3;
 
 Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
+
+if(total > 14) // Palabra clave if y expresión booleana entre paréntesis.
+{
+    Console.WriteLine("You win!");  // Bloque de código delimitado por llaves.
+}
+
+if(total < 15)
+{
+    Console.WriteLine("Sorry, you lose.");
+}

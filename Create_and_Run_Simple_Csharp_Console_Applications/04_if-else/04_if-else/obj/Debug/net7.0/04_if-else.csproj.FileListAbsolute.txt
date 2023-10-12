@@ -1,0 +1,14 @@
+G:\Programming\courses\csharp_freeCodeCamp\Create_and_Run_Simple_Csharp_Console_Applications\04_if-else\04_if-else\bin\Debug\net7.0\04_if-else.exe
+G:\Programming\courses\csharp_freeCodeCamp\Create_and_Run_Simple_Csharp_Console_Applications\04_if-else\04_if-else\bin\Debug\net7.0\04_if-else.deps.json
+G:\Programming\courses\csharp_freeCodeCamp\Create_and_Run_Simple_Csharp_Console_Applications\04_if-else\04_if-else\bin\Debug\net7.0\04_if-else.runtimeconfig.json
+G:\Programming\courses\csharp_freeCodeCamp\Create_and_Run_Simple_Csharp_Console_Applications\04_if-else\04_if-else\bin\Debug\net7.0\04_if-else.dll
+G:\Programming\courses\csharp_freeCodeCamp\Create_and_Run_Simple_Csharp_Console_Applications\04_if-else\04_if-else\bin\Debug\net7.0\04_if-else.pdb
+G:\Programming\courses\csharp_freeCodeCamp\Create_and_Run_Simple_Csharp_Console_Applications\04_if-else\04_if-else\obj\Debug\net7.0\04_if-else.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\courses\csharp_freeCodeCamp\Create_and_Run_Simple_Csharp_Console_Applications\04_if-else\04_if-else\obj\Debug\net7.0\04_if-else.AssemblyInfoInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\Create_and_Run_Simple_Csharp_Console_Applications\04_if-else\04_if-else\obj\Debug\net7.0\04_if-else.AssemblyInfo.cs
+G:\Programming\courses\csharp_freeCodeCamp\Create_and_Run_Simple_Csharp_Console_Applications\04_if-else\04_if-else\obj\Debug\net7.0\04_if-else.csproj.CoreCompileInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\Create_and_Run_Simple_Csharp_Console_Applications\04_if-else\04_if-else\obj\Debug\net7.0\04_if-else.dll
+G:\Programming\courses\csharp_freeCodeCamp\Create_and_Run_Simple_Csharp_Console_Applications\04_if-else\04_if-else\obj\Debug\net7.0\refint\04_if-else.dll
+G:\Programming\courses\csharp_freeCodeCamp\Create_and_Run_Simple_Csharp_Console_Applications\04_if-else\04_if-else\obj\Debug\net7.0\04_if-else.pdb
+G:\Programming\courses\csharp_freeCodeCamp\Create_and_Run_Simple_Csharp_Console_Applications\04_if-else\04_if-else\obj\Debug\net7.0\04_if-else.genruntimeconfig.cache
+G:\Programming\courses\csharp_freeCodeCamp\Create_and_Run_Simple_Csharp_Console_Applications\04_if-else\04_if-else\obj\Debug\net7.0\ref\04_if-else.dll
