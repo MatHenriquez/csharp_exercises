@@ -16,7 +16,7 @@ int total = roll1  + roll2 + roll3;
 
 Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
 
-if(total > 14) // Palabra clave if y expresión booleana entre paréntesis.
+if(total >= 15) // Palabra clave if y expresión booleana entre paréntesis.
 {
     Console.WriteLine("You win!");  // Bloque de código delimitado por llaves.
 }
@@ -40,7 +40,8 @@ if(total < 15)
 
 // Dobles
 
-if((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
+if((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3)) // Condición compuesta.
 {
     Console.WriteLine("You roll doubles! +2 bonus to total!");
+    total += 2;
 }
