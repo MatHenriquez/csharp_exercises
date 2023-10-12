@@ -35,3 +35,8 @@ string text = "seven";
 Console.WriteLine(number);
 Console.WriteLine();
 Console.WriteLine(text);
+
+Console.WriteLine("Presione una tecla para seguir viendo la info");
+Console.ReadKey();
+Console.Clear();
+
