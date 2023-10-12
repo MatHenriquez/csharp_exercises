@@ -16,7 +16,7 @@ Console.WriteLine(roll);    // Muestro el número obtenido.
 // Algunos métodos no devuelven valores cuando finalizan. Se hace referencia a ellos como métodos nulos (void).
 // Otros métodos están diseñados para devolver un valor al finalizar.
 
-// Aunque un método devuelve un valor, podemos llamarlo sin usar el valor devuelto.
+// Aunque un método devuelve un valor, podemos llamarlo sin usar el valor devuelto. Ej:
 Console.WriteLine(dice.Next(1, 7));
 
 // Parámetros de entrada
@@ -28,4 +28,10 @@ Console.WriteLine(dice.Next(1, 7));
 
 // Métodos sobrecargados
 
-// Muchos métodos de la biblioteca de clases .NET tienen firmas de método sobrecargadas. Entre otras cosas, esto nos permite llamar al método con o sin parámetros.
+// Muchos métodos de la biblioteca de clases .NET tienen firmas de método sobrecargadas. Entre otras cosas, esto nos permite llamar al método con o sin parámetros. Ej:
+int number = 7;
+string text = "seven";
+
+Console.WriteLine(number);
+Console.WriteLine();
+Console.WriteLine(text);
