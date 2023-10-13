@@ -20,5 +20,9 @@ else if(daysUntilExpiration <= 5)
 }
 else if(daysUntilExpiration <= 10)
 {
-    Console.WriteLine("Your subscription will expire soon. Renew now!");
-} 
+    Console.WriteLine("Your subscription will expire soon.\nRenew now!");
+}
+else
+{
+    Console.WriteLine(daysUntilExpiration);
+}
