@@ -19,4 +19,5 @@ Console.WriteLine($"Third: {fraudulentOrderIDs[2]}");
 fraudulentOrderIDs[0] = "F000";
 Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
 
-
+// Propiedad Length de una matriz
+Console.WriteLine($"There are {fraudulentOrderIDs.Length} fradulent orders to process.");
