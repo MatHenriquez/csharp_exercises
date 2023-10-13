@@ -32,8 +32,16 @@ Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
 
 if((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3)) // Condición compuesta.
 {
-    Console.WriteLine("You roll doubles! +2 bonus to total!");
+    Console.WriteLine("You rolled doubles! +2 bonus to total!");
     total += 2;
+}
+
+// Triples
+
+if((roll1 == roll2) && (roll2 == roll3))
+{
+    Console.WriteLine("You rolled triples! +6 bonus to total!");
+    total += 6;
 }
 
 if(total >= 15) // Palabra clave if y expresión booleana entre paréntesis.
