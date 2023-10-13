@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "06_foreach_matrix/1.0.0": {
+        "runtime": {
+          "06_foreach_matrix.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "06_foreach_matrix/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
