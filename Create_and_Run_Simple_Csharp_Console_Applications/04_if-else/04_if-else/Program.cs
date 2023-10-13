@@ -54,12 +54,29 @@ if((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3)) // Condición compu
     
 }
 
-if(total >= 15) // Palabra clave if y expresión booleana entre paréntesis.
-{
-    Console.WriteLine("You win!");  // Bloque de código delimitado por llaves.
-}
+//if(total >= 15) // Palabra clave if y expresión booleana entre paréntesis.
+//{
+//    Console.WriteLine("You win!");  // Bloque de código delimitado por llaves.
+//}
 
-if(total < 15)
+//if(total < 15)
+//{
+//    Console.WriteLine("Sorry, you lose.");
+//}
+
+if(total >= 16)
 {
-    Console.WriteLine("Sorry, you lose.");
+    Console.WriteLine("You win a new car!");
+}
+else if(total >= 10)
+{
+    Console.WriteLine("You win a new laptop!");
+}
+else if(total == 7)
+{
+    Console.WriteLine("You win a trip for two!");
+}
+else
+{
+    Console.WriteLine("You win a kitten!");
 }
