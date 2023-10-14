@@ -21,3 +21,15 @@ Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
 
 // Propiedad Length de una matriz
 Console.WriteLine($"There are {fraudulentOrderIDs.Length} fradulent orders to process.");
+
+
+// foreach
+
+// La instrucción foreach procesa los elementos de matriz en orden creciente de índice, comenzando con el índice 0 y terminando con el índice Length - 1
+// Ejemplo:
+
+string[] names = { "Rowena", "Robin", "Bao" };
+foreach(string name in names)
+{
+    Console.WriteLine(name);
+}
