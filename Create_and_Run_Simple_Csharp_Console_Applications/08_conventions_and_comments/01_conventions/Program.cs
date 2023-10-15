@@ -17,7 +17,7 @@
 // Ejemplos válidos:
 bool orderComplete; // Y no bool isComplete;
 decimal orderAmount; // Sin contracciones y no decimal odrAmt;
-string lastName; // Sin incluir el tipo de dato y no string strMyValue;
+string lastName; // Sin incluir el tipo de dato y no string strLastName;
 char userOption;
 int gameScore;
 float particlesPerMillion;
@@ -28,3 +28,8 @@ bool processedCustomer;
 // Un comentario de código es una instrucción del compilador para omitir todo lo que aparece después de los símbolos de comentario de código en la línea actual. Ej:
 // This is a code comment!
 // Es buena idea usar los comentarios para ideas de nivel superior y no agregar comentarios sobre cómo funciona una línea de código individual.
+
+// Ejercicio:
+string firstName = "Bob";
+int widgetsSold = 7;
+Console.WriteLine($"{firstName} sold {widgetsSold} widgets.");
