@@ -17,7 +17,7 @@
 // Ejemplos válidos:
 bool orderComplete; // Y no bool isComplete;
 decimal orderAmount; // Sin contracciones y no decimal odrAmt;
-string firstName; // Sin incluir el tipo de dato y no string strMyValue;
+string lastName; // Sin incluir el tipo de dato y no string strMyValue;
 char userOption;
 int gameScore;
 float particlesPerMillion;
