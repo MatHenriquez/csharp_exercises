@@ -22,3 +22,9 @@ char userOption;
 int gameScore;
 float particlesPerMillion;
 bool processedCustomer;
+
+// Creación de comentarios de código efectivos.
+
+// Un comentario de código es una instrucción del compilador para omitir todo lo que aparece después de los símbolos de comentario de código en la línea actual. Ej:
+// This is a code comment!
+// Es buena idea usar los comentarios para ideas de nivel superior y no agregar comentarios sobre cómo funciona una línea de código individual.
