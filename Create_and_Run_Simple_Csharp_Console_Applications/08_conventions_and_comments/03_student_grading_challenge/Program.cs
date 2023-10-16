@@ -27,9 +27,23 @@ int examAssignments = 5;
 
 // Obtengo las calificaciones de cada estudiante de manera aleatoria.
 Random calification = new Random();
-int[] sophiaScore = new int[] { calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101) };
-int[] andrewScore = new int[] { calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101) };
-int[] emmaScore = new int[] { calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101) };
-int[] loganScore = new int[] { calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101) };
+int[] sophiaScores = new int[] { calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101) };
+int[] andrewScores = new int[] { calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101) };
+int[] emmaScores = new int[] { calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101) };
+int[] loganScores = new int[] { calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101) };
 
-Console.WriteLine(sophiaScore[2]); // Impresión auxiliar
+int sophiaSum = 0;
+int andrewSum = 0;
+int emmaSum = 0;
+int loganSum = 0;
+
+decimal sophiaScore;
+decimal andrewScore;
+decimal emmaScore;
+decimal loganScore;
+
+// Cálculo e impresión por consola del promedio de Sophia
+
+
+Console.WriteLine("Press the Enter key to continue");
+Console.ReadLine();
