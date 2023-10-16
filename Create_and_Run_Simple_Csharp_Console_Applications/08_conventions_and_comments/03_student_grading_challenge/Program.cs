@@ -25,12 +25,13 @@ string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" }; //
 
 int examAssignments = 5;
 
-// Obtengo las calificaciones de cada estudiante de manera aleatoria.
-Random calification = new Random();
-int[] sophiaScores = new int[] { calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101) };
-int[] andrewScores = new int[] { calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101) };
-int[] emmaScores = new int[] { calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101) };
-int[] loganScores = new int[] { calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101) };
+// initialize variables - graded assignments 
+int currentAssignments = 5;
+
+int[] sophiaScores = new int[] { 90, 86, 87, 98, 100 };
+int[] andrewScores = new int[] { 92, 89, 81, 96, 90 };
+int[] emmaScores = new int[] { 90, 85, 87, 98, 68 };
+int[] loganScores = new int[] { 90, 95, 87, 88, 96 };
 
 int sophiaSum = 0;
 int andrewSum = 0;
