@@ -32,6 +32,4 @@ int[] andrewScore = new int[] { calification.Next(0, 101), calification.Next(0, 
 int[] emmaScore = new int[] { calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101) };
 int[] loganScore = new int[] { calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101), calification.Next(0, 101) };
 
-// Añado los créditos adicionales de los alumnos.
-
-Console.WriteLine(sophiaScore[2]);
+Console.WriteLine(sophiaScore[2]); // Impresión auxiliar
