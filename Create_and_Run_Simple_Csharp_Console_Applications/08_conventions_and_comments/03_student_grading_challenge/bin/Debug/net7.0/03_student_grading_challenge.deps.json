@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "03_student_grading_challenge/1.0.0": {
+        "runtime": {
+          "03_student_grading_challenge.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "03_student_grading_challenge/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
