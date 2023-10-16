@@ -19,12 +19,6 @@ This C# console application is designed to:
     Logan:          91.2    A-
 */
 
-// Programa para llevar registro de calificaciones de 5 estudiantes.
-
-string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" }; // Listado de alumnos.
-
-int examAssignments = 5;
-
 // initialize variables - graded assignments 
 int currentAssignments = 5;
 
@@ -34,17 +28,13 @@ int[] emmaScores = new int[] { 90, 85, 87, 98, 68 };
 int[] loganScores = new int[] { 90, 95, 87, 88, 96 };
 
 int sophiaSum = 0;
-int andrewSum = 0;
-int emmaSum = 0;
-int loganSum = 0;
 
 decimal sophiaScore;
-decimal andrewScore;
-decimal emmaScore;
-decimal loganScore;
 
-// Cálculo e impresión por consola del promedio de Sophia
+sophiaScore = (decimal)sophiaSum / currentAssignments;
 
+Console.WriteLine("Student\t\tGrade\n");
+Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA-");
 
 Console.WriteLine("Press the Enter key to continue");
 Console.ReadLine();
