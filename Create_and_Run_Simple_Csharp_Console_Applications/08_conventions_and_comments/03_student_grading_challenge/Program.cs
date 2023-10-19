@@ -22,6 +22,9 @@ This C# console application is designed to:
 // initialize variables - graded assignments 
 int currentAssignments = 5;
 
+// Student names
+string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
+
 int[] sophiaScores = new int[] { 90, 86, 87, 98, 100 };
 int[] andrewScores = new int[] { 92, 89, 81, 96, 90 };
 int[] emmaScores = new int[] { 90, 85, 87, 98, 68 };
