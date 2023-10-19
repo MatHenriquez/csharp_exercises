@@ -33,19 +33,16 @@ int emmaSum = 0;
 int loganSum = 0;
 
 decimal sophiaScore;
-decimal andrewScore;
-decimal emmaScore;
-decimal loganScore;
+
+foreach(int score in sophiaScores)
+{
+    // add the exam score to the sum
+    sophiaSum += score;
+}
 
 sophiaSum = sophiaScores[0] + sophiaScores[1] + sophiaScores[2] + sophiaScores[3] + sophiaScores[4];
-andrewSum = andrewScores[0] + andrewScores[1] + andrewScores[2] + andrewScores[3] + andrewScores[4];
-emmaSum = emmaScores[0] + emmaScores[1] + emmaScores[2] + emmaScores[3] + emmaScores[4];
-loganSum = loganScores[0] + loganScores[1] + loganScores[2] + loganScores[3] + loganScores[4];
 
 sophiaScore = (decimal)sophiaSum / currentAssignments;
-andrewScore = (decimal)andrewSum / currentAssignments;
-emmaScore = (decimal)emmaSum / currentAssignments;
-loganScore = (decimal)loganSum / currentAssignments;
 
 Console.WriteLine("Student\t\tGrade\n");
 Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA-");
