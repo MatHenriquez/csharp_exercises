@@ -22,33 +22,46 @@ This C# console application is designed to:
 // initialize variables - graded assignments 
 int currentAssignments = 5;
 
-// Student names
+// Student variables
 string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
+int[] studentScores = new int[10];
 
 int[] sophiaScores = new int[] { 90, 86, 87, 98, 100 };
 int[] andrewScores = new int[] { 92, 89, 81, 96, 90 };
 int[] emmaScores = new int[] { 90, 85, 87, 98, 68 };
 int[] loganScores = new int[] { 90, 95, 87, 88, 96 };
 
-foreach(string name in studentNames)
+Console.WriteLine("Student\t\tGrade\n");
+
+foreach (string name in studentNames)
 {
-    if(name == "Sophia")
-    {
-        int sophiaSum = 0;
-        decimal sophiaScore;
-        foreach(int score in sophiaScores)
-        {
-            // add the exam score to the sum
-            sophiaSum += score;
-        }
+    string currentStudent = name;
+
+    if (currentStudent == "Sophia")
+        studentScores = sophiaScores;
+
+    else if (currentStudent == "Andrew")
+        studentScores = andrewScores;
+
+    else if (currentStudent == "Emma")
+        studentScores = emmaScores;
+
+    else if(currentStudent == "Logan")
+        studentScores = loganScores;
     
-            sophiaSum = sophiaScores[0] + sophiaScores[1] + sophiaScores[2] + sophiaScores[3] + sophiaScores[4];
+    int sumAssignmentScore = 0;
 
-            sophiaScore = (decimal)sophiaSum / currentAssignments;
+    decimal currentStudentGrade = 0;
 
-            Console.WriteLine("Student\t\tGrade\n");
-            Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA-");
+    foreach(int score in studentScores)
+    {
+        // add the exam score to the sum
+        sumAssignmentScore += score;
     }
+
+    currentStudentGrade = (decimal)sumAssignmentScore / currentAssignments;
+
+    Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t?");
 }
 
 Console.WriteLine("Press the Enter key to continue");
