@@ -69,7 +69,7 @@ foreach (string name in studentNames)
         currentStudentLetterGrade = "A";
 
     else if (currentStudentGrade >= 90)
-        currentStudentLetterGrade = "A";
+        currentStudentLetterGrade = "A-";
 
     else if (currentStudentGrade >= 87)
         currentStudentLetterGrade = "B+";
