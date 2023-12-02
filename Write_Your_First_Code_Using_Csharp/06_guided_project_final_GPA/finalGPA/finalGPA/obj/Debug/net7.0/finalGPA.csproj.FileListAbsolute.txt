@@ -12,3 +12,17 @@ G:\Programming\courses\csharp_freeCodeCamp\06_guided_project_final_GPA\finalGPA\
 G:\Programming\courses\csharp_freeCodeCamp\06_guided_project_final_GPA\finalGPA\finalGPA\obj\Debug\net7.0\finalGPA.pdb
 G:\Programming\courses\csharp_freeCodeCamp\06_guided_project_final_GPA\finalGPA\finalGPA\obj\Debug\net7.0\finalGPA.genruntimeconfig.cache
 G:\Programming\courses\csharp_freeCodeCamp\06_guided_project_final_GPA\finalGPA\finalGPA\obj\Debug\net7.0\ref\finalGPA.dll
+G:\Programming\courses\csharp_freeCodeCamp\Write_Your_First_Code_Using_Csharp\06_guided_project_final_GPA\finalGPA\finalGPA\bin\Debug\net7.0\finalGPA.exe
+G:\Programming\courses\csharp_freeCodeCamp\Write_Your_First_Code_Using_Csharp\06_guided_project_final_GPA\finalGPA\finalGPA\bin\Debug\net7.0\finalGPA.deps.json
+G:\Programming\courses\csharp_freeCodeCamp\Write_Your_First_Code_Using_Csharp\06_guided_project_final_GPA\finalGPA\finalGPA\bin\Debug\net7.0\finalGPA.runtimeconfig.json
+G:\Programming\courses\csharp_freeCodeCamp\Write_Your_First_Code_Using_Csharp\06_guided_project_final_GPA\finalGPA\finalGPA\bin\Debug\net7.0\finalGPA.dll
+G:\Programming\courses\csharp_freeCodeCamp\Write_Your_First_Code_Using_Csharp\06_guided_project_final_GPA\finalGPA\finalGPA\bin\Debug\net7.0\finalGPA.pdb
+G:\Programming\courses\csharp_freeCodeCamp\Write_Your_First_Code_Using_Csharp\06_guided_project_final_GPA\finalGPA\finalGPA\obj\Debug\net7.0\finalGPA.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\courses\csharp_freeCodeCamp\Write_Your_First_Code_Using_Csharp\06_guided_project_final_GPA\finalGPA\finalGPA\obj\Debug\net7.0\finalGPA.AssemblyInfoInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\Write_Your_First_Code_Using_Csharp\06_guided_project_final_GPA\finalGPA\finalGPA\obj\Debug\net7.0\finalGPA.AssemblyInfo.cs
+G:\Programming\courses\csharp_freeCodeCamp\Write_Your_First_Code_Using_Csharp\06_guided_project_final_GPA\finalGPA\finalGPA\obj\Debug\net7.0\finalGPA.csproj.CoreCompileInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\Write_Your_First_Code_Using_Csharp\06_guided_project_final_GPA\finalGPA\finalGPA\obj\Debug\net7.0\finalGPA.dll
+G:\Programming\courses\csharp_freeCodeCamp\Write_Your_First_Code_Using_Csharp\06_guided_project_final_GPA\finalGPA\finalGPA\obj\Debug\net7.0\refint\finalGPA.dll
+G:\Programming\courses\csharp_freeCodeCamp\Write_Your_First_Code_Using_Csharp\06_guided_project_final_GPA\finalGPA\finalGPA\obj\Debug\net7.0\finalGPA.pdb
+G:\Programming\courses\csharp_freeCodeCamp\Write_Your_First_Code_Using_Csharp\06_guided_project_final_GPA\finalGPA\finalGPA\obj\Debug\net7.0\finalGPA.genruntimeconfig.cache
+G:\Programming\courses\csharp_freeCodeCamp\Write_Your_First_Code_Using_Csharp\06_guided_project_final_GPA\finalGPA\finalGPA\obj\Debug\net7.0\ref\finalGPA.dll

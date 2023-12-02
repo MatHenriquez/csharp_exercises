@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Programming\\courses\\csharp_freeCodeCamp\\06_guided_project_final_GPA\\finalGPA\\finalGPA\\finalGPA.csproj": {}
+    "G:\\Programming\\courses\\csharp_freeCodeCamp\\Write_Your_First_Code_Using_Csharp\\06_guided_project_final_GPA\\finalGPA\\finalGPA\\finalGPA.csproj": {}
   },
   "projects": {
-    "G:\\Programming\\courses\\csharp_freeCodeCamp\\06_guided_project_final_GPA\\finalGPA\\finalGPA\\finalGPA.csproj": {
+    "G:\\Programming\\courses\\csharp_freeCodeCamp\\Write_Your_First_Code_Using_Csharp\\06_guided_project_final_GPA\\finalGPA\\finalGPA\\finalGPA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Programming\\courses\\csharp_freeCodeCamp\\06_guided_project_final_GPA\\finalGPA\\finalGPA\\finalGPA.csproj",
+        "projectUniqueName": "G:\\Programming\\courses\\csharp_freeCodeCamp\\Write_Your_First_Code_Using_Csharp\\06_guided_project_final_GPA\\finalGPA\\finalGPA\\finalGPA.csproj",
         "projectName": "finalGPA",
-        "projectPath": "G:\\Programming\\courses\\csharp_freeCodeCamp\\06_guided_project_final_GPA\\finalGPA\\finalGPA\\finalGPA.csproj",
+        "projectPath": "G:\\Programming\\courses\\csharp_freeCodeCamp\\Write_Your_First_Code_Using_Csharp\\06_guided_project_final_GPA\\finalGPA\\finalGPA\\finalGPA.csproj",
         "packagesPath": "C:\\Users\\trechi\\.nuget\\packages\\",
-        "outputPath": "G:\\Programming\\courses\\csharp_freeCodeCamp\\06_guided_project_final_GPA\\finalGPA\\finalGPA\\obj\\",
+        "outputPath": "G:\\Programming\\courses\\csharp_freeCodeCamp\\Write_Your_First_Code_Using_Csharp\\06_guided_project_final_GPA\\finalGPA\\finalGPA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\trechi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
