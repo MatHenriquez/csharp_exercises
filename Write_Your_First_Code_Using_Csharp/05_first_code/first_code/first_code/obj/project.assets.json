@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Programming\\courses\\csharp_freeCodeCamp\\05_first_code\\first_code\\first_code\\first_code.csproj",
+      "projectUniqueName": "G:\\Programming\\courses\\csharp_freeCodeCamp\\Write_Your_First_Code_Using_Csharp\\05_first_code\\first_code\\first_code\\first_code.csproj",
       "projectName": "first_code",
-      "projectPath": "G:\\Programming\\courses\\csharp_freeCodeCamp\\05_first_code\\first_code\\first_code\\first_code.csproj",
+      "projectPath": "G:\\Programming\\courses\\csharp_freeCodeCamp\\Write_Your_First_Code_Using_Csharp\\05_first_code\\first_code\\first_code\\first_code.csproj",
       "packagesPath": "C:\\Users\\trechi\\.nuget\\packages\\",
-      "outputPath": "G:\\Programming\\courses\\csharp_freeCodeCamp\\05_first_code\\first_code\\first_code\\obj\\",
+      "outputPath": "G:\\Programming\\courses\\csharp_freeCodeCamp\\Write_Your_First_Code_Using_Csharp\\05_first_code\\first_code\\first_code\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\trechi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
