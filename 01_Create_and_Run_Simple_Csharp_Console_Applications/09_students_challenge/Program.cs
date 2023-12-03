@@ -28,6 +28,7 @@ namespace Main
         public static void Main(string[] args)
         {
             int examAssignments = 5;
+            string currentStudentLetterGrade;
 
             string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
 
@@ -37,8 +38,6 @@ namespace Main
             int[] loganScores = new int[] { 90, 95, 87, 88, 96, 96 };
 
             int[] studentScores = new int[10];
-
-            string currentStudentLetterGrade = "";
 
             // display the header row for scores/grades
             Console.Clear();
@@ -68,7 +67,9 @@ namespace Main
                 else if (currentStudent == "Logan")
                     studentScores = loganScores;
 
-                int sumAssignmentScores = 0;
+                int sumExamScores = 0;
+
+                decimal sumExtraCredits = 0;
 
                 decimal currentStudentGrade = 0;
 
@@ -83,13 +84,16 @@ namespace Main
                     gradedAssignments += 1;
 
                     if (gradedAssignments <= examAssignments)
-                        sumAssignmentScores += score;
+                        sumExamScores += score;
 
                     else
-                        sumAssignmentScores += score / 10;
+                        sumExtraCredits += score;
                 }
 
-                currentStudentGrade = (decimal)(sumAssignmentScores) / examAssignments;
+                decimal examScore = (decimal)(sumExamScores) / examAssignments;
+                decimal extraCredits = (decimal)(sumExtraCredits) / (gradedAssignments - examAssignments);
+                currentStudentGrade = (decimal)((decimal)sumExamScores + ((decimal)sumExtraCredits / 10)) / examAssignments;
+                decimal extraPoints = currentStudentGrade - examScore;
 
                 if (currentStudentGrade >= 97)
                     currentStudentLetterGrade = "A+";
@@ -133,7 +137,7 @@ namespace Main
                 // Student         Grade
                 // Sophia:         92.2    A-
 
-                Console.WriteLine($"{currentStudent}\t\t0\t\t{currentStudentGrade}\t{currentStudentLetterGrade}\t0 (0 pts)");
+                Console.WriteLine($"{currentStudent}\t\t{examScore}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}\t{extraCredits} ({extraPoints} pts)");
             }
 
             // required for running in VS Code (keeps the Output windows open to view results)
