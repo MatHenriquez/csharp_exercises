@@ -1,0 +1,15 @@
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\00_booleans\bin\Debug\net7.0\00_booleans.exe
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\00_booleans\bin\Debug\net7.0\00_booleans.deps.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\00_booleans\bin\Debug\net7.0\00_booleans.runtimeconfig.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\00_booleans\bin\Debug\net7.0\00_booleans.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\00_booleans\bin\Debug\net7.0\00_booleans.pdb
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\00_booleans\obj\Debug\net7.0\00_booleans.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\00_booleans\obj\Debug\net7.0\00_booleans.AssemblyInfoInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\00_booleans\obj\Debug\net7.0\00_booleans.AssemblyInfo.cs
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\00_booleans\obj\Debug\net7.0\00_booleans.csproj.CoreCompileInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\00_booleans\obj\Debug\net7.0\00_booleans.sourcelink.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\00_booleans\obj\Debug\net7.0\00_booleans.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\00_booleans\obj\Debug\net7.0\refint\00_booleans.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\00_booleans\obj\Debug\net7.0\00_booleans.pdb
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\00_booleans\obj\Debug\net7.0\00_booleans.genruntimeconfig.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\00_booleans\obj\Debug\net7.0\ref\00_booleans.dll
