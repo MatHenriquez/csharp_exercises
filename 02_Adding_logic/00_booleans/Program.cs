@@ -1,4 +1,8 @@
-﻿Console.WriteLine("a" == "a");
+﻿// Equality operator
+
+using System.Security.Cryptography.X509Certificates;
+
+Console.WriteLine("a" == "a");
 Console.WriteLine("a" == "A");
 Console.WriteLine(1 == 2);
 
@@ -13,6 +17,8 @@ Console.WriteLine(value1.Trim().ToLower() == value2.Trim().ToLower());
 
 Console.WriteLine("==================================================");
 
+// Inequality operator
+
 Console.WriteLine("a" != "a");
 Console.WriteLine("a" != "A");
 Console.WriteLine(1 != 2);
@@ -25,3 +31,13 @@ string value5 = "A ";
 
 Console.WriteLine(value4 != value5);
 Console.WriteLine(value4.Trim().ToLower() != value5.Trim().ToLower());
+
+Console.WriteLine("==================================================");
+
+// Comparison operators
+
+Console.WriteLine(1 > 2);
+Console.WriteLine(1 < 2);
+Console.WriteLine(1 >= 1);
+Console.WriteLine(1 <= 1);
+
