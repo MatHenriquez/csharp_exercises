@@ -1,0 +1,15 @@
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\02_scope\bin\Debug\net7.0\02_scope.exe
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\02_scope\bin\Debug\net7.0\02_scope.deps.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\02_scope\bin\Debug\net7.0\02_scope.runtimeconfig.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\02_scope\bin\Debug\net7.0\02_scope.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\02_scope\bin\Debug\net7.0\02_scope.pdb
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\02_scope\obj\Debug\net7.0\02_scope.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\02_scope\obj\Debug\net7.0\02_scope.AssemblyInfoInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\02_scope\obj\Debug\net7.0\02_scope.AssemblyInfo.cs
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\02_scope\obj\Debug\net7.0\02_scope.csproj.CoreCompileInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\02_scope\obj\Debug\net7.0\02_scope.sourcelink.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\02_scope\obj\Debug\net7.0\02_scope.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\02_scope\obj\Debug\net7.0\refint\02_scope.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\02_scope\obj\Debug\net7.0\02_scope.pdb
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\02_scope\obj\Debug\net7.0\02_scope.genruntimeconfig.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\02_scope\obj\Debug\net7.0\ref\02_scope.dll
