@@ -1,0 +1,15 @@
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\03_switch\bin\Debug\net7.0\03_switch.exe
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\03_switch\bin\Debug\net7.0\03_switch.deps.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\03_switch\bin\Debug\net7.0\03_switch.runtimeconfig.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\03_switch\bin\Debug\net7.0\03_switch.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\03_switch\bin\Debug\net7.0\03_switch.pdb
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\03_switch\obj\Debug\net7.0\03_switch.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\03_switch\obj\Debug\net7.0\03_switch.AssemblyInfoInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\03_switch\obj\Debug\net7.0\03_switch.AssemblyInfo.cs
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\03_switch\obj\Debug\net7.0\03_switch.csproj.CoreCompileInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\03_switch\obj\Debug\net7.0\03_switch.sourcelink.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\03_switch\obj\Debug\net7.0\03_switch.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\03_switch\obj\Debug\net7.0\refint\03_switch.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\03_switch\obj\Debug\net7.0\03_switch.pdb
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\03_switch\obj\Debug\net7.0\03_switch.genruntimeconfig.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\03_switch\obj\Debug\net7.0\ref\03_switch.dll
