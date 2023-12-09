@@ -22,6 +22,7 @@ string title =  "";
 
 switch (employeeLevel)
 {
+    case 50: // Dos etiquetas a la misma sección Switch.
     case 100:
         title = "Junior Associate";
         break;
@@ -38,7 +39,7 @@ switch (employeeLevel)
         title = "Senior Manager";
         break;
 
-    default:
+    default: // Se evalúa al último, sin importar dónde se escriba.
         title = "Associate";
         break;
 }
