@@ -19,3 +19,16 @@ while (current >= 3)
     current = random.Next(1, 11);
 }
 Console.WriteLine($"Last number: {current}");
+
+// Third example
+current = random.Next(1, 11);
+
+do
+{
+    current = random.Next(1, 11);
+
+    if (current >= 8)
+        continue;
+
+    Console.WriteLine(current);
+} while (current != 7);
