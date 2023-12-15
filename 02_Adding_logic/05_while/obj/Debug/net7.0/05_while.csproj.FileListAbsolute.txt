@@ -1,0 +1,15 @@
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_while\bin\Debug\net7.0\05_while.exe
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_while\bin\Debug\net7.0\05_while.deps.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_while\bin\Debug\net7.0\05_while.runtimeconfig.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_while\bin\Debug\net7.0\05_while.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_while\bin\Debug\net7.0\05_while.pdb
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_while\obj\Debug\net7.0\05_while.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_while\obj\Debug\net7.0\05_while.AssemblyInfoInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_while\obj\Debug\net7.0\05_while.AssemblyInfo.cs
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_while\obj\Debug\net7.0\05_while.csproj.CoreCompileInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_while\obj\Debug\net7.0\05_while.sourcelink.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_while\obj\Debug\net7.0\05_while.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_while\obj\Debug\net7.0\refint\05_while.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_while\obj\Debug\net7.0\05_while.pdb
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_while\obj\Debug\net7.0\05_while.genruntimeconfig.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_while\obj\Debug\net7.0\ref\05_while.dll
