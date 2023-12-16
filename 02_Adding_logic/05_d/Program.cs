@@ -53,3 +53,24 @@ Console.WriteLine("You typed a valid number.");
 //La solución debe usar el método ToLower() en el valor de entrada para omitir el caso.
 //Si el valor especificado no coincide con una de las opciones de rol, el código debe usar una instrucción Console.WriteLine() para solicitar al usuario una entrada válida.
 //Debajo (después) del bloque de código de iteración, la solución debe usar una instrucción Console.WriteLine() para informar al usuario de que se ha aceptado su valor de entrada.
+
+Console.WriteLine("Enter your role:");
+string[] userRoles = { "Administrador", "Director", "Usuario" };
+bool rolInputValid = false;
+string? userRol;
+
+do
+{
+    userRol = Console.ReadLine();
+
+    foreach (string role in userRoles)
+        if (role.ToLower() == userRol?.Trim().ToLower())
+            rolInputValid = true;
+
+    if(rolInputValid)
+        continue;
+
+    Console.WriteLine("Please, type one of the valid roles.");
+} while (!rolInputValid);
+
+Console.WriteLine($"Welcome, {userRol}!");
