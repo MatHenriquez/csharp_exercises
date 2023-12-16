@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("05_b_rol_game")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a20a9af298087807d7c78e32a20111a2fd9a2e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eab1c104b52ef17749d7fb7c6f9a81c5d2a212ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("05_b_rol_game")]
 [assembly: System.Reflection.AssemblyTitleAttribute("05_b_rol_game")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
