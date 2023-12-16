@@ -97,3 +97,29 @@ Console.WriteLine($"Welcome, {userRol}!");
 //En el bucle interno, la solución no debe mostrar el carácter de punto.
 
 //En el bucle interno, la solución debe usar los métodos Remove(), Substring() y TrimStart() para procesar la información de cadena.
+
+string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
+int periodLocation;
+
+
+foreach (string myString in myStrings)
+{
+        string copiedString = myString;
+        periodLocation = copiedString.IndexOf(".");
+    do
+    {
+        if (periodLocation == -1)
+            Console.WriteLine(copiedString.TrimStart());
+
+        else { 
+            string mySubString = copiedString.Substring(0, periodLocation).TrimStart();
+            Console.WriteLine(mySubString);
+
+            copiedString = copiedString.Remove(0, periodLocation + 1).TrimStart();
+            periodLocation = copiedString.IndexOf(".");
+
+            if(periodLocation == -1)
+                Console.WriteLine(copiedString);
+        }
+    } while (periodLocation > -1) ;
+}
