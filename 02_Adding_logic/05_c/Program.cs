@@ -22,3 +22,8 @@ do
         }
     }
 } while (validEntry == false);
+
+int numericValue = 0;
+bool validNumber  = false;
+
+validNumber = int.TryParse(readResult, out numericValue);
