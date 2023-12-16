@@ -14,6 +14,8 @@
 //La solución debe garantizar que el valor de enteros está comprendido entre 5 y 10 antes de salir de la iteración.
 //Debajo (después) del bloque de código de iteración, la solución debe usar una instrucción Console.WriteLine() para informar al usuario de que se ha aceptado su valor de entrada.
 
+using Microsoft.VisualBasic;
+
 string? userInput;
 int numericInput = 0;
 bool isInt = false;
@@ -74,3 +76,24 @@ do
 } while (!rolInputValid);
 
 Console.WriteLine($"Welcome, {userRol}!");
+
+// Project 3
+
+//Estas son las condiciones que el tercer proyecto de codificación debe implementar:
+
+//La solución debe usar la siguiente matriz de cadenas para representar la entrada en la lógica de codificación:
+
+//string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
+//La solución debe declarar una variable de enteros denominada periodLocation que se pueda usar para contener la ubicación del carácter de punto dentro de una cadena.
+
+//La solución debe incluir un bucle externo foreach o for que se pueda usar para procesar cada elemento de cadena de la matriz. La variable de cadena que procesará dentro de los bucles debe denominarse myString.
+
+//En el bucle externo, la solución debe usar el método IndexOf() de la clase String para obtener la ubicación del primer carácter de punto de la variable myString. La llamada al método debe ser similar a myString.IndexOf("."). Si no hay ningún carácter de punto en la cadena, se devolverá un valor de -1.
+
+//La solución debe incluir un bucle interno do-while o while que se pueda usar para procesar la variable myString.
+
+//En el bucle interno, la solución debe extraer y mostrar (escribir en la consola) cada frase contenida en cada una de las cadenas que se procesan.
+
+//En el bucle interno, la solución no debe mostrar el carácter de punto.
+
+//En el bucle interno, la solución debe usar los métodos Remove(), Substring() y TrimStart() para procesar la información de cadena.
