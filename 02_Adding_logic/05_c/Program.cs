@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string? readResult;
+Console.WriteLine("Enter a string:");
+do
+{
+    readResult = Console.ReadLine();
+} while (readResult == null);
