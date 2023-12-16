@@ -1,0 +1,15 @@
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_b_rol_game\bin\Debug\net7.0\05_b_rol_game.exe
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_b_rol_game\bin\Debug\net7.0\05_b_rol_game.deps.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_b_rol_game\bin\Debug\net7.0\05_b_rol_game.runtimeconfig.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_b_rol_game\bin\Debug\net7.0\05_b_rol_game.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_b_rol_game\bin\Debug\net7.0\05_b_rol_game.pdb
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_b_rol_game\obj\Debug\net7.0\05_b_rol_game.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_b_rol_game\obj\Debug\net7.0\05_b_rol_game.AssemblyInfoInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_b_rol_game\obj\Debug\net7.0\05_b_rol_game.AssemblyInfo.cs
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_b_rol_game\obj\Debug\net7.0\05_b_rol_game.csproj.CoreCompileInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_b_rol_game\obj\Debug\net7.0\05_b_rol_game.sourcelink.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_b_rol_game\obj\Debug\net7.0\05_b_rol_game.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_b_rol_game\obj\Debug\net7.0\refint\05_b_rol_game.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_b_rol_game\obj\Debug\net7.0\05_b_rol_game.pdb
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_b_rol_game\obj\Debug\net7.0\05_b_rol_game.genruntimeconfig.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\05_b_rol_game\obj\Debug\net7.0\ref\05_b_rol_game.dll
