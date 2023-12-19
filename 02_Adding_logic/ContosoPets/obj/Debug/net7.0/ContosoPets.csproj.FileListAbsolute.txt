@@ -1,0 +1,15 @@
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\ContosoPets\bin\Debug\net7.0\ContosoPets.exe
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\ContosoPets\bin\Debug\net7.0\ContosoPets.deps.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\ContosoPets\bin\Debug\net7.0\ContosoPets.runtimeconfig.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\ContosoPets\bin\Debug\net7.0\ContosoPets.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\ContosoPets\bin\Debug\net7.0\ContosoPets.pdb
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\ContosoPets\obj\Debug\net7.0\ContosoPets.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\ContosoPets\obj\Debug\net7.0\ContosoPets.AssemblyInfoInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\ContosoPets\obj\Debug\net7.0\ContosoPets.AssemblyInfo.cs
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\ContosoPets\obj\Debug\net7.0\ContosoPets.csproj.CoreCompileInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\ContosoPets\obj\Debug\net7.0\ContosoPets.sourcelink.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\ContosoPets\obj\Debug\net7.0\ContosoPets.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\ContosoPets\obj\Debug\net7.0\refint\ContosoPets.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\ContosoPets\obj\Debug\net7.0\ContosoPets.pdb
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\ContosoPets\obj\Debug\net7.0\ContosoPets.genruntimeconfig.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\ContosoPets\obj\Debug\net7.0\ref\ContosoPets.dll
