@@ -195,9 +195,23 @@ void addNewPet()
 
     }
 
-    if(petCount < maxPets)
+    while (petCount < maxPets && anotherPet == "y")
     {
         Console.WriteLine($"We currently have {petCount} pets that need homes. We can manage {(maxPets - petCount)} more.");
+        Console.WriteLine("Do you want to enter info for another pet (y/n)");
 
+        do
+        {
+            readResult = Console.ReadLine();
+            if (readResult != null)
+            {
+                anotherPet = readResult.ToLower();
+            }
+
+        } while (anotherPet != "y" && anotherPet != "n");
+
+        petCount++;
     }
+
+    Console.WriteLine("We have reached our limit on the number of pets that we can manage.");
 }
