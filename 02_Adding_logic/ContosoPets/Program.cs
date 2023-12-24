@@ -102,7 +102,7 @@ do
                 readResult = Console.ReadLine();
                 break;
             case 2:
-                Console.WriteLine("this app feature is coming soon - please check back to see progress.");
+                addNewPet();
                 Console.WriteLine("Press the Enter key to continue.");
                 readResult = Console.ReadLine();
                 break;
@@ -179,4 +179,21 @@ void showAllPets()
             }
         }
     }
+}
+
+void addNewPet()
+{
+    string anotherPet = "y";
+    int petCount = 0;
+
+    for (int i = 0; i < maxPets; i++)
+    {
+        if (ourAnimals[i, 0] != "ID #: ")
+        {
+            petCount++;
+        }
+
+    }
+
+    Console.WriteLine($"We currently have {petCount} pets that need homes. We can manage {(maxPets - petCount)} more.");
 }
