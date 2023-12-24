@@ -195,5 +195,9 @@ void addNewPet()
 
     }
 
-    Console.WriteLine($"We currently have {petCount} pets that need homes. We can manage {(maxPets - petCount)} more.");
+    if(petCount < maxPets)
+    {
+        Console.WriteLine($"We currently have {petCount} pets that need homes. We can manage {(maxPets - petCount)} more.");
+
+    }
 }
