@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-string animalSpecies = "";
+﻿string animalSpecies = "";
 string animalID = "";
 string animalAge = "";
 string animalPhysicalDescription = "";
@@ -99,6 +97,10 @@ do
         switch (option)
         {
             case 1:
+                showAllPets();
+                Console.WriteLine("Press the Enter key to continue.");
+                readResult = Console.ReadLine();
+                break;
             case 2:
                 Console.WriteLine("this app feature is coming soon - please check back to see progress.");
                 Console.WriteLine("Press the Enter key to continue.");
@@ -115,10 +117,10 @@ do
             default:
                 Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
                 Console.WriteLine("Press the Enter key to continue.");
-                readResult = Console.ReadLine(); 
+                readResult = Console.ReadLine();
                 break;
         }
-        
+
     }
 
     Console.WriteLine($"You selected menu option {menuSelection}.");
@@ -163,3 +165,18 @@ do
 
 Console.WriteLine($"You selected menu option {menuSelection}.");
 Console.WriteLine("Press the Enter key to continue");
+
+void showAllPets()
+{
+    for (int i = 0; i < maxPets; i++)
+    {
+        if (ourAnimals[i, 0] != "ID #: ")
+        {
+            Console.WriteLine();
+            for (int j = 0; j < 6; j++)
+            {
+                Console.WriteLine(ourAnimals[i, j]);
+            }
+        }
+    }
+}
