@@ -1,4 +1,6 @@
-﻿string animalSpecies = "";
+﻿using System.Runtime.CompilerServices;
+
+string animalSpecies = "";
 string animalID = "";
 string animalAge = "";
 string animalPhysicalDescription = "";
@@ -86,6 +88,78 @@ do
     Console.WriteLine("Enter your selection number (or type Exit to exit the program)");
 
     readResult = Console.ReadLine();
-    if(readResult != null)
-        menuSelection = readResult.ToLower();
+
+    if (readResult == null)
+        continue;
+
+    menuSelection = readResult.ToLower();
+
+    void displayFeatureInProgressMessage(int option)
+    {
+        switch (option)
+        {
+            case 1:
+            case 2:
+                Console.WriteLine("this app feature is coming soon - please check back to see progress.");
+                Console.WriteLine("Press the Enter key to continue.");
+                readResult = Console.ReadLine();
+                break;
+
+            case 3:
+            case 4:
+                Console.WriteLine("Challenge Project - please check back soon to see progress.");
+                Console.WriteLine("Press the Enter key to continue.");
+                readResult = Console.ReadLine();
+                break;
+
+            default:
+                Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
+                Console.WriteLine("Press the Enter key to continue.");
+                readResult = Console.ReadLine(); 
+                break;
+        }
+        
+    }
+
+    Console.WriteLine($"You selected menu option {menuSelection}.");
+    switch (menuSelection)
+    {
+        case "1":
+            displayFeatureInProgressMessage(1);
+            break;
+
+        case "2":
+            displayFeatureInProgressMessage(2);
+            break;
+
+        case "3":
+            displayFeatureInProgressMessage(3);
+            break;
+
+        case "4":
+            displayFeatureInProgressMessage(4);
+            break;
+
+        case "5":
+            displayFeatureInProgressMessage(5);
+            break;
+
+        case "6":
+            displayFeatureInProgressMessage(6);
+            break;
+
+        case "7":
+            displayFeatureInProgressMessage(7);
+            break;
+
+        case "8":
+            displayFeatureInProgressMessage(8);
+            break;
+
+        default:
+            break;
+    }
 } while (menuSelection != "exit");
+
+Console.WriteLine($"You selected menu option {menuSelection}.");
+Console.WriteLine("Press the Enter key to continue");
