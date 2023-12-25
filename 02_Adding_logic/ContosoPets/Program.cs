@@ -216,10 +216,9 @@ void addNewPet()
     Console.WriteLine("We have reached our limit on the number of pets that we can manage.");
 }
 
-void isNewPetValid()
+void isNewPetValid(int petCount)
 {
     bool validEntry = false;
-    string? readResult;
 
     do
     {
@@ -231,4 +230,7 @@ void isNewPetValid()
 
         validEntry = animalSpecies == "dog" && animalSpecies == "cat";
     } while (validEntry == false);
+
+    animalID = animalSpecies.Substring(0, 1) + (petCount + 1).ToString();
 }
+
