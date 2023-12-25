@@ -215,3 +215,20 @@ void addNewPet()
 
     Console.WriteLine("We have reached our limit on the number of pets that we can manage.");
 }
+
+void isNewPetValid()
+{
+    bool validEntry = false;
+    string? readResult;
+
+    do
+    {
+        Console.WriteLine("\n\rEnter 'dog' or 'cat' to begin a new entry");
+        readResult = Console.ReadLine();
+
+        if (readResult != null)
+            animalSpecies = readResult.ToLower();
+
+        validEntry = animalSpecies == "dog" && animalSpecies == "cat";
+    } while (validEntry == false);
+}
