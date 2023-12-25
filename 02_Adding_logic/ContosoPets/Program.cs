@@ -227,18 +227,20 @@ void isNewPetValid(int petCount)
         readResult = Console.ReadLine();
 
         if (readResult != null)
+        {
             animalAge = readResult;
 
-        if(animalAge != "?")
-            validEntry = int.TryParse(animalAge, out petAge);
-        else
-            validEntry = true;
+            if (animalAge != "?")
+                validEntry = int.TryParse(animalAge, out petAge);
+            else
+                validEntry = true;
 
-        Console.WriteLine("\n\rEnter 'dog' or 'cat' to begin a new entry");
-        readResult = Console.ReadLine();
+            Console.WriteLine("\n\rEnter 'dog' or 'cat' to begin a new entry");
+            readResult = Console.ReadLine();
 
-        if (readResult != null)
-            animalSpecies = readResult.ToLower();
+            if (readResult != null)
+                animalSpecies = readResult.ToLower();
+        }
 
         validEntry = animalSpecies == "dog" && animalSpecies == "cat";
     } while (validEntry == false);
