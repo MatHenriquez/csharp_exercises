@@ -216,7 +216,7 @@ void addNewPet()
     Console.WriteLine("We have reached our limit on the number of pets that we can manage.");
 }
 
-void isNewPetValid(int petCount)
+void validateAndSaveNewPet(int petCount)
 {
     bool validEntry = false;
 
@@ -246,5 +246,19 @@ void isNewPetValid(int petCount)
     } while (validEntry == false);
 
     animalID = animalSpecies.Substring(0, 1) + (petCount + 1).ToString();
+
+    do
+    {
+        Console.WriteLine("Enter a physical description of the pet (size, color, gender, weight, housebroken)");
+        readResult = Console.ReadLine();
+
+        if (readResult != null)
+        {
+            animalPhysicalDescription = readResult.ToLower();
+            if (animalPhysicalDescription == "")
+                animalPhysicalDescription = "tbd";
+
+        }
+    } while (animalPhysicalDescription == "");
 }
 
