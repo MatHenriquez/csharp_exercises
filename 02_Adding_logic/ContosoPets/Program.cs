@@ -222,6 +222,18 @@ void isNewPetValid(int petCount)
 
     do
     {
+        int petAge;
+        Console.WriteLine("Enter the pet's age or enter ? if unknown");
+        readResult = Console.ReadLine();
+
+        if (readResult != null)
+            animalAge = readResult;
+
+        if(animalAge != "?")
+            validEntry = int.TryParse(animalAge, out petAge);
+        else
+            validEntry = true;
+
         Console.WriteLine("\n\rEnter 'dog' or 'cat' to begin a new entry");
         readResult = Console.ReadLine();
 
