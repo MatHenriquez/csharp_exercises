@@ -260,5 +260,18 @@ void validateAndSaveNewPet(int petCount)
 
         }
     } while (animalPhysicalDescription == "");
+
+    do
+    {
+        Console.WriteLine("Enter a description of the pet's personality (likes or dislikes, tricks, energy level)");
+        readResult = Console.ReadLine();
+
+        if (readResult != null)
+        {
+            animalPersonalityDescription = readResult.ToLower();
+            if (animalPersonalityDescription == "")
+                animalPersonalityDescription = "tbd";
+        }
+    } while (animalPersonalityDescription == "");
 }
 
