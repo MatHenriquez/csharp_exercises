@@ -244,7 +244,7 @@ void validateAndSaveNewPet(int petCount)
                 animalSpecies = readResult.ToLower();
         }
 
-        validEntry = animalSpecies == "dog" && animalSpecies == "cat";
+        validEntry = animalSpecies == "dog" || animalSpecies == "cat";
     } while (validEntry == false);
 
     animalID = animalSpecies.Substring(0, 1) + (petCount + 1).ToString();
