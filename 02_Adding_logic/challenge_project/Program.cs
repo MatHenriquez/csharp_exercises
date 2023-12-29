@@ -302,7 +302,7 @@ do
                             isAgeValid = int.TryParse(readResult, out age);
                         } while (!isAgeValid);
                         ourAnimals[i, 2] = age.ToString();
-                        Console.WriteLine("");
+                        Console.WriteLine($"The pet's age is: {age}");
                     }
 
                     else if (ourAnimals[i, 4] == "Physical description: ")
