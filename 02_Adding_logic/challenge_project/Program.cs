@@ -287,7 +287,10 @@ do
             for (int i = 0; i < maxPets; i++)
             {
                 bool isAgeValid = false;
+                bool isPhysicalDescriptionValid = false;
+                string newPhysicalDescription;
                 int age;
+
                 if (ourAnimals[i, 0] == "ID #: ")
                     continue;
 
@@ -306,7 +309,19 @@ do
                     }
 
                     else if (ourAnimals[i, 4] == "Physical description: ")
-                        Console.WriteLine($"Enter a physical description for {ourAnimals[i, 0]}");
+                    {
+                        do
+                        {
+                            Console.WriteLine($"Enter a physical description for {ourAnimals[i, 0]}");
+                            readResult = Console.ReadLine();
+                            if (readResult is String && readResult.Length >= 1)
+                            {
+                                isPhysicalDescriptionValid = true;
+                                ourAnimals[i, 4] = readResult;
+                            }
+                        } while (!isPhysicalDescriptionValid);
+                        Console.WriteLine($"The pet's physical description is: {ourAnimals[i , 4]}");
+                    }
                 }
             }
             Console.WriteLine("Press the Enter key to continue.");
