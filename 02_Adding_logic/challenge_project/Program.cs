@@ -303,7 +303,8 @@ do
                             Console.WriteLine($"Enter an age for {ourAnimals[i, 0]}");
                             readResult = Console.ReadLine();
                             isAgeValid = int.TryParse(readResult, out age);
-                        } while (!isAgeValid);
+                        } while (!isAgeValid || age < 0);
+
                         ourAnimals[i, 2] = age.ToString();
                         Console.WriteLine($"The pet's age is: {age}");
                     }
