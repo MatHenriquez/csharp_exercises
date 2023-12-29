@@ -288,7 +288,6 @@ do
             {
                 bool isAgeValid = false;
                 bool isPhysicalDescriptionValid = false;
-                string newPhysicalDescription;
                 int age;
 
                 if (ourAnimals[i, 0] == "ID #: ")
