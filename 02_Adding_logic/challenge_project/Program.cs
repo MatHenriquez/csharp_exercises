@@ -1,7 +1,4 @@
-﻿using System;
-using System.IO;
-
-// the ourAnimals array will store the following: 
+﻿// the ourAnimals array will store the following: 
 string animalSpecies = "";
 string animalID = "";
 string animalAge = "";
@@ -287,7 +284,31 @@ do
 
         case "3":
             // Ensure animal ages and physical descriptions are complete
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
+            for (int i = 0; i < maxPets; i++)
+            {
+                bool isAgeValid = false;
+                int age;
+                if (ourAnimals[i, 0] == "ID #: ")
+                    continue;
+
+                else
+                {
+                    if (ourAnimals[i, 2] == "Age: ?" || ourAnimals[i, 2] == "Age: ")
+                    {
+                        do
+                        {
+                            Console.WriteLine($"Enter an age for {ourAnimals[i, 0]}");
+                            readResult = Console.ReadLine();
+                            isAgeValid = int.TryParse(readResult, out age);
+                        } while (!isAgeValid);
+                        ourAnimals[i, 2] = age.ToString();
+                        Console.WriteLine("");
+                    }
+
+                    else if (ourAnimals[i, 4] == "Physical description: ")
+                        Console.WriteLine($"Enter a physical description for {ourAnimals[i, 0]}");
+                }
+            }
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;

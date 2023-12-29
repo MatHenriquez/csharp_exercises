@@ -1,0 +1,15 @@
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\challenge_project\bin\Debug\net7.0\challenge_project.exe
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\challenge_project\bin\Debug\net7.0\challenge_project.deps.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\challenge_project\bin\Debug\net7.0\challenge_project.runtimeconfig.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\challenge_project\bin\Debug\net7.0\challenge_project.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\challenge_project\bin\Debug\net7.0\challenge_project.pdb
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\challenge_project\obj\Debug\net7.0\challenge_project.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\challenge_project\obj\Debug\net7.0\challenge_project.AssemblyInfoInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\challenge_project\obj\Debug\net7.0\challenge_project.AssemblyInfo.cs
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\challenge_project\obj\Debug\net7.0\challenge_project.csproj.CoreCompileInputs.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\challenge_project\obj\Debug\net7.0\challenge_project.sourcelink.json
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\challenge_project\obj\Debug\net7.0\challenge_project.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\challenge_project\obj\Debug\net7.0\refint\challenge_project.dll
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\challenge_project\obj\Debug\net7.0\challenge_project.pdb
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\challenge_project\obj\Debug\net7.0\challenge_project.genruntimeconfig.cache
+G:\Programming\courses\csharp_freeCodeCamp\02_Adding_logic\challenge_project\obj\Debug\net7.0\ref\challenge_project.dll
