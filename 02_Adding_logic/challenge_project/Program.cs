@@ -340,9 +340,8 @@ do
                     {
                         Console.WriteLine($"Enter a nickname for {ourAnimals[i, 0]}.");
                         readResult = Console.ReadLine();
-                        
-                        if(readResult != null && readResult.Length >= 1)
-                            isNicknameValid = true;
+                       
+                        isNicknameValid = readResult != null && readResult.Length >= 1;
                     }
                 }
             } while (!isNicknameValid);
