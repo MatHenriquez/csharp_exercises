@@ -332,6 +332,7 @@ do
         case "4":
             // Ensure animal nicknames and personality descriptions are complete
             bool isNicknameValid = false;
+            bool isPersonalityDescriptionValid = false;
             do
             {
                 for (int i = 0; i < maxPets; i++)
@@ -350,6 +351,25 @@ do
                     }
                 }
             } while (!isNicknameValid);
+
+            do
+            {
+                for (int i = 0; i < maxPets; i++)
+                {
+                    if (ourAnimals[i, 0] != "ID #: " && ourAnimals[i, 5] == "Personality: ")
+                    {
+                        Console.WriteLine($"Enter a personality description for {ourAnimals[i, 0]}.");
+                        readResult = Console.ReadLine();
+
+                        if (readResult != null && readResult.Length >= 1)
+                        {
+                            isPersonalityDescriptionValid = true;
+                            ourAnimals[i, 5] = readResult;
+                            Console.WriteLine($"The personality description is {ourAnimals[i, 5]}");
+                        }
+                    }
+                }
+            } while (!isPersonalityDescriptionValid);
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
