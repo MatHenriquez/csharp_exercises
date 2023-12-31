@@ -320,7 +320,7 @@ do
                                 ourAnimals[i, 4] = readResult;
                             }
                         } while (!isPhysicalDescriptionValid);
-                        Console.WriteLine($"The pet's physical description is: {ourAnimals[i , 4]}");
+                        Console.WriteLine($"The pet's physical description is: {ourAnimals[i, 4]}");
                     }
                 }
             }
@@ -340,8 +340,13 @@ do
                     {
                         Console.WriteLine($"Enter a nickname for {ourAnimals[i, 0]}.");
                         readResult = Console.ReadLine();
-                       
-                        isNicknameValid = readResult != null && readResult.Length >= 1;
+
+                        if (readResult != null && readResult.Length >= 1)
+                        {
+                            isNicknameValid = true;
+                            ourAnimals[i, 3] = readResult;
+                            Console.WriteLine($"The nickname is {ourAnimals[i, 3]}");
+                        }
                     }
                 }
             } while (!isNicknameValid);
