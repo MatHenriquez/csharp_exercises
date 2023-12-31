@@ -1,6 +1,4 @@
 ﻿// the ourAnimals array will store the following: 
-using System.Numerics;
-
 string animalSpecies = "";
 string animalID = "";
 string animalAge = "";
