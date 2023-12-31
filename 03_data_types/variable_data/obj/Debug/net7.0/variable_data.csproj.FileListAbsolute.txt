@@ -1,0 +1,15 @@
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\variable_data\bin\Debug\net7.0\variable_data.exe
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\variable_data\bin\Debug\net7.0\variable_data.deps.json
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\variable_data\bin\Debug\net7.0\variable_data.runtimeconfig.json
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\variable_data\bin\Debug\net7.0\variable_data.dll
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\variable_data\bin\Debug\net7.0\variable_data.pdb
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\variable_data\obj\Debug\net7.0\variable_data.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\variable_data\obj\Debug\net7.0\variable_data.AssemblyInfoInputs.cache
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\variable_data\obj\Debug\net7.0\variable_data.AssemblyInfo.cs
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\variable_data\obj\Debug\net7.0\variable_data.csproj.CoreCompileInputs.cache
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\variable_data\obj\Debug\net7.0\variable_data.sourcelink.json
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\variable_data\obj\Debug\net7.0\variable_data.dll
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\variable_data\obj\Debug\net7.0\refint\variable_data.dll
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\variable_data\obj\Debug\net7.0\variable_data.pdb
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\variable_data\obj\Debug\net7.0\variable_data.genruntimeconfig.cache
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\variable_data\obj\Debug\net7.0\ref\variable_data.dll
