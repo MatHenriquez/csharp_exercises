@@ -1,4 +1,6 @@
 ﻿// the ourAnimals array will store the following: 
+using System.Numerics;
+
 string animalSpecies = "";
 string animalID = "";
 string animalAge = "";
@@ -370,6 +372,7 @@ do
                     }
                 }
             } while (!isPersonalityDescriptionValid);
+            Console.WriteLine("Nickname and personality description fields are complete for all of our friends.");
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
