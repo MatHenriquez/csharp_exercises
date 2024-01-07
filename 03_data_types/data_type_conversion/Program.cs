@@ -25,3 +25,9 @@ int firstInt = 5;
 int secondInt = 7;
 string message = firstInt.ToString() + secondInt.ToString();
 Console.WriteLine(message);
+
+
+string firstStr = "5";
+string secondStr = "7";
+int sum = int.Parse(firstStr) + int.Parse(secondStr);
+Console.WriteLine(sum);
