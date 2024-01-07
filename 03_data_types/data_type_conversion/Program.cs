@@ -1,4 +1,7 @@
-﻿int first = 2;
+﻿using System.Globalization;
+CultureInfo.CurrentCulture = new CultureInfo("en-US");
+
+int first = 2;
 string second = "4";
 //int result = first + second; // Error
 string result = first + second; // 24
@@ -54,5 +57,25 @@ if (int.TryParse(myString2, out myResult))
 else
     Console.WriteLine("Unable to report the measurement.");
 
-if(myResult > 0)
-Console.WriteLine($"Measurement (w/ offset): {50 + myResult}");
+if (myResult > 0)
+    Console.WriteLine($"Measurement (w/ offset): {50 + myResult}");
+
+Console.WriteLine("---- CHALLENGE ----");
+
+string[] values = { "12.3", "45", "ABC", "11", "DEF" };
+
+string myMessage = "";
+decimal total = 0;
+decimal currentValue;
+
+foreach (string myValue in values)
+{
+    if (decimal.TryParse(myValue, out currentValue))
+        total += currentValue;
+
+    else
+        myMessage += myValue;
+}
+
+Console.WriteLine($"Message: {myMessage}");
+Console.WriteLine($"Total: {total}");
