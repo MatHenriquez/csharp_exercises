@@ -43,5 +43,12 @@ Console.WriteLine(value);
 int value0 = Convert.ToInt32(1.5m); // converting rounds up
 Console.WriteLine(value0);
 
-string name = "Bob";
+//string name = "Bob";
 //Console.WriteLine(int.Parse(name)); // Error.
+
+string myString = "102";
+int myResult = 0;
+if (int.TryParse(myString, out myResult))
+    Console.WriteLine($"Measurement: {myString}");
+else
+    Console.WriteLine("Unable to report the measurement.");
