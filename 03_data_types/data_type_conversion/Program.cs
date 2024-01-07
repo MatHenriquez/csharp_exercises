@@ -34,5 +34,11 @@ Console.WriteLine(sum);
 
 string value1 = "5";
 string value2 = "7";
-int result1 = Convert.ToInt32(value1)*Convert.ToInt32(value2);
+int result1 = Convert.ToInt32(value1) * Convert.ToInt32(value2);
 Console.WriteLine(result1);
+
+int value = (int)1.5m; // casting truncates
+Console.WriteLine(value);
+
+int value0 = Convert.ToInt32(1.5m); // converting rounds up
+Console.WriteLine(value0);
