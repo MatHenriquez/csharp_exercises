@@ -31,3 +31,8 @@ string firstStr = "5";
 string secondStr = "7";
 int sum = int.Parse(firstStr) + int.Parse(secondStr);
 Console.WriteLine(sum);
+
+string value1 = "5";
+string value2 = "7";
+int result1 = Convert.ToInt32(value1)*Convert.ToInt32(value2);
+Console.WriteLine(result1);
