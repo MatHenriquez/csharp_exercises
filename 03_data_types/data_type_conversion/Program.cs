@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int first = 2;
+string second = "4";
+//int result = first + second; // Error
+string result = first + second; // 24
+Console.WriteLine(result);

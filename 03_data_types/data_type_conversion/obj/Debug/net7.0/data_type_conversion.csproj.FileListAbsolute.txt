@@ -1,0 +1,15 @@
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\data_type_conversion\bin\Debug\net7.0\data_type_conversion.exe
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\data_type_conversion\bin\Debug\net7.0\data_type_conversion.deps.json
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\data_type_conversion\bin\Debug\net7.0\data_type_conversion.runtimeconfig.json
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\data_type_conversion\bin\Debug\net7.0\data_type_conversion.dll
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\data_type_conversion\bin\Debug\net7.0\data_type_conversion.pdb
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\data_type_conversion\obj\Debug\net7.0\data_type_conversion.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\data_type_conversion\obj\Debug\net7.0\data_type_conversion.AssemblyInfoInputs.cache
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\data_type_conversion\obj\Debug\net7.0\data_type_conversion.AssemblyInfo.cs
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\data_type_conversion\obj\Debug\net7.0\data_type_conversion.csproj.CoreCompileInputs.cache
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\data_type_conversion\obj\Debug\net7.0\data_type_conversion.sourcelink.json
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\data_type_conversion\obj\Debug\net7.0\data_type_conversion.dll
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\data_type_conversion\obj\Debug\net7.0\refint\data_type_conversion.dll
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\data_type_conversion\obj\Debug\net7.0\data_type_conversion.pdb
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\data_type_conversion\obj\Debug\net7.0\data_type_conversion.genruntimeconfig.cache
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\data_type_conversion\obj\Debug\net7.0\ref\data_type_conversion.dll
