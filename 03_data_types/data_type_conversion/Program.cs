@@ -42,3 +42,6 @@ Console.WriteLine(value);
 
 int value0 = Convert.ToInt32(1.5m); // converting rounds up
 Console.WriteLine(value0);
+
+string name = "Bob";
+//Console.WriteLine(int.Parse(name)); // Error.
