@@ -20,3 +20,8 @@ myDecimal = 1.23456789m;
 float myFloat = (float)myDecimal; // It will lose precition
 Console.WriteLine($"Decimal: {myDecimal}");
 Console.WriteLine($"Float: {myFloat}");
+
+int firstInt = 5;
+int secondInt = 7;
+string message = firstInt.ToString() + secondInt.ToString();
+Console.WriteLine(message);
