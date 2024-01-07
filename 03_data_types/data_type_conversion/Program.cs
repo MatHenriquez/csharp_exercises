@@ -46,11 +46,13 @@ Console.WriteLine(value0);
 //string name = "Bob";
 //Console.WriteLine(int.Parse(name)); // Error.
 
-string myString = "102";
+//string myString = "102";
 int myResult = 0;
-if (int.TryParse(myString, out myResult))
+string myString2 = "bad";
+if (int.TryParse(myString2, out myResult))
     Console.WriteLine($"Measurement: {myResult}");
 else
     Console.WriteLine("Unable to report the measurement.");
 
+if(myResult > 0)
 Console.WriteLine($"Measurement (w/ offset): {50 + myResult}");
