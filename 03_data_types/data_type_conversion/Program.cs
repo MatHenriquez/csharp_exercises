@@ -9,3 +9,9 @@ Console.WriteLine($"int: {myInt}");
 
 decimal myDecimal = myInt; // It will not lose information
 Console.WriteLine($"decimal: {myDecimal}");
+
+myDecimal = 3.14m;
+Console.WriteLine($"decimal: {myDecimal}");
+
+myInt = (int) myDecimal;
+Console.WriteLine($"int: {myInt}");
