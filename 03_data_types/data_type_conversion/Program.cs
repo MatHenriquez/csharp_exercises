@@ -65,7 +65,7 @@ Console.WriteLine("---- CHALLENGE ----");
 string[] values = { "12.3", "45", "ABC", "11", "DEF" };
 
 string myMessage = "";
-decimal total = 0;
+decimal total = 0m;
 decimal currentValue;
 
 foreach (string myValue in values)
