@@ -88,10 +88,26 @@ float value_3 = 4.3f;
 
 // Your code here to set result1
 // Hint: You need to round the result to nearest integer (don't just truncate)
-Console.WriteLine($"Divide value1 by value2, display the result as an int: {(int)value_1/(int)value_2}");
+Console.WriteLine($"Divide value1 by value2, display the result as an int: {(int)value_1 / (int)value_2}");
 
 // Your code here to set result2
-Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {value_2/(decimal)value_3}");
+Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {value_2 / (decimal)value_3}");
 
 // Your code here to set result3
-Console.WriteLine($"Divide value3 by value1, display the result as a float: {value_3/(float)value_1}");
+Console.WriteLine($"Divide value3 by value1, display the result as a float: {value_3 / (float)value_1}");
+
+Console.WriteLine("Microsoft's solution:");
+int m_value1 = 12;
+decimal m_value2 = 6.2m;
+float m_value3 = 4.3f;
+
+// The Convert class is best for converting the fractional decimal numbers into whole integer numbers
+// Convert.ToInt32() rounds up the way you would expect.
+int m_result1 = Convert.ToInt32((decimal)m_value1 / m_value2);
+Console.WriteLine($"Divide value1 by value2, display the result as an int: {m_result1}");
+
+decimal m_result2 = m_value2 / (decimal)m_value3;
+Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {m_result2}");
+
+float m_result3 = m_value3 / m_value1;
+Console.WriteLine($"Divide value3 by value1, display the result as a float: {m_result3}");
