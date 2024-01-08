@@ -82,16 +82,16 @@ Console.WriteLine($"Total: {total}");
 
 Console.WriteLine("---- CHALLENGE 2 ----");
 
-int value1 = 12;
-decimal value2 = 6.2m;
-float value3 = 4.3f;
+int value_1 = 12;
+decimal value_2 = 6.2m;
+float value_3 = 4.3f;
 
 // Your code here to set result1
 // Hint: You need to round the result to nearest integer (don't just truncate)
-Console.WriteLine($"Divide value1 by value2, display the result as an int: {result1}");
+Console.WriteLine($"Divide value1 by value2, display the result as an int: {(int)value_1/(int)value_2}");
 
 // Your code here to set result2
-Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {result2}");
+Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {value_2/(decimal)value_3}");
 
 // Your code here to set result3
-Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}");
+Console.WriteLine($"Divide value3 by value1, display the result as a float: {value_3/(float)value_1}");
