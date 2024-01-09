@@ -48,8 +48,16 @@ foreach (var pallet in pallets)
     Console.WriteLine($"-- {pallet}");
 }
 
+Console.WriteLine("");
+Console.WriteLine("String methods...");
 string value = "abc123";
 char[] valueArray = value.ToCharArray();
 Array.Reverse(valueArray);
 string result = new string(valueArray);
+Console.WriteLine(result);
+
+Console.WriteLine("");
+valueArray = value.ToCharArray();
+Array.Reverse(valueArray);
+result = String.Join(",", valueArray);
 Console.WriteLine(result);
