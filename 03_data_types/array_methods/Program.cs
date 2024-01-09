@@ -47,3 +47,9 @@ foreach (var pallet in pallets)
 {
     Console.WriteLine($"-- {pallet}");
 }
+
+string value = "abc123";
+char[] valueArray = value.ToCharArray();
+Array.Reverse(valueArray);
+string result = new string(valueArray);
+Console.WriteLine(result);
