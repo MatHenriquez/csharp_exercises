@@ -61,3 +61,10 @@ valueArray = value.ToCharArray();
 Array.Reverse(valueArray);
 result = String.Join(",", valueArray);
 Console.WriteLine(result);
+
+Console.WriteLine("");
+string[] items = result.Split(',');
+foreach (string item in items)
+{
+    Console.WriteLine(item);
+}
