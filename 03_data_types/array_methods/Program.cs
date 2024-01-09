@@ -68,3 +68,10 @@ foreach (string item in items)
 {
     Console.WriteLine(item);
 }
+
+Console.WriteLine("---- CHALLENGE ----");
+Console.WriteLine("");
+
+// Invert the characters of each word in the pangram
+// Expected output: ehT kciuq nworb xof spmuj revo eht yzal god
+string pangram = "The quick brown fox jumps over the lazy dog";
