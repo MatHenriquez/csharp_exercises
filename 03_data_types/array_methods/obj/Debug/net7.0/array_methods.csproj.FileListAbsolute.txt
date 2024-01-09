@@ -1,0 +1,15 @@
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\array_methods\bin\Debug\net7.0\array_methods.exe
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\array_methods\bin\Debug\net7.0\array_methods.deps.json
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\array_methods\bin\Debug\net7.0\array_methods.runtimeconfig.json
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\array_methods\bin\Debug\net7.0\array_methods.dll
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\array_methods\bin\Debug\net7.0\array_methods.pdb
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\array_methods\obj\Debug\net7.0\array_methods.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\array_methods\obj\Debug\net7.0\array_methods.AssemblyInfoInputs.cache
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\array_methods\obj\Debug\net7.0\array_methods.AssemblyInfo.cs
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\array_methods\obj\Debug\net7.0\array_methods.csproj.CoreCompileInputs.cache
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\array_methods\obj\Debug\net7.0\array_methods.sourcelink.json
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\array_methods\obj\Debug\net7.0\array_methods.dll
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\array_methods\obj\Debug\net7.0\refint\array_methods.dll
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\array_methods\obj\Debug\net7.0\array_methods.pdb
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\array_methods\obj\Debug\net7.0\array_methods.genruntimeconfig.cache
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\array_methods\obj\Debug\net7.0\ref\array_methods.dll
