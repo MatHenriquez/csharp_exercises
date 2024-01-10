@@ -138,8 +138,10 @@ Array.Sort(orders);
 foreach (string order in orders)
 {
     if (order.Length != expectedLength)
-        Console.WriteLine($"{order}\t\t - Error");
+        Console.WriteLine($"{order}\t - Error");
 
     else
         Console.WriteLine(order);
 }
+
+
