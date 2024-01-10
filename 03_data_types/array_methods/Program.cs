@@ -126,3 +126,19 @@ Console.WriteLine("---- SECOND CHALLENGE ----");
 //C235
 //G3003   - Error
 string orderStream = "B123,C234,A345,C15,B177,G3003,C235,B179";
+
+// My solution
+Console.WriteLine("");
+Console.WriteLine("My solution...");
+
+byte expectedLength = 4;
+string[] orders = orderStream.Split(",");
+
+foreach (string order in orders)
+{
+    if (order.Length != expectedLength)
+        Console.WriteLine($"{order}\t\t - Error");
+
+    else
+        Console.WriteLine(order);
+}
