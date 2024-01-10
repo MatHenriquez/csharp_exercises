@@ -87,7 +87,7 @@ foreach (string word in pangramWords)
     Console.Write($"{currentWordInverted} ");
 }
 
-// My solution
+// Microsoft's solution
 Console.WriteLine("");
 Console.WriteLine("");
 Console.WriteLine("Microfot's solution...");
@@ -133,6 +133,7 @@ Console.WriteLine("My solution...");
 
 byte expectedLength = 4;
 string[] orders = orderStream.Split(",");
+Array.Sort(orders);
 
 foreach (string order in orders)
 {
