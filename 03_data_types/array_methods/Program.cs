@@ -144,4 +144,20 @@ foreach (string order in orders)
         Console.WriteLine(order);
 }
 
+// Microsoft's solution
+Console.WriteLine("");
+Console.WriteLine("Microsoft's solution...");
+orders = orderStream.Split(',');
+Array.Sort(orders);
 
+foreach (var order in orders)
+{
+    if (order.Length == 4)
+    {
+        Console.WriteLine(order);
+    }
+    else
+    {
+        Console.WriteLine(order + "\t- Error");
+    }
+}
