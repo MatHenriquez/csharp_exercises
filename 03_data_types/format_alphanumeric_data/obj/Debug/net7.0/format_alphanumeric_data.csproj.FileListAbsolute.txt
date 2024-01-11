@@ -1,0 +1,15 @@
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\format_alphanumeric_data\bin\Debug\net7.0\format_alphanumeric_data.exe
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\format_alphanumeric_data\bin\Debug\net7.0\format_alphanumeric_data.deps.json
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\format_alphanumeric_data\bin\Debug\net7.0\format_alphanumeric_data.runtimeconfig.json
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\format_alphanumeric_data\bin\Debug\net7.0\format_alphanumeric_data.dll
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\format_alphanumeric_data\bin\Debug\net7.0\format_alphanumeric_data.pdb
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\format_alphanumeric_data\obj\Debug\net7.0\format_alphanumeric_data.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\format_alphanumeric_data\obj\Debug\net7.0\format_alphanumeric_data.AssemblyInfoInputs.cache
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\format_alphanumeric_data\obj\Debug\net7.0\format_alphanumeric_data.AssemblyInfo.cs
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\format_alphanumeric_data\obj\Debug\net7.0\format_alphanumeric_data.csproj.CoreCompileInputs.cache
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\format_alphanumeric_data\obj\Debug\net7.0\format_alphanumeric_data.sourcelink.json
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\format_alphanumeric_data\obj\Debug\net7.0\format_alphanumeric_data.dll
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\format_alphanumeric_data\obj\Debug\net7.0\refint\format_alphanumeric_data.dll
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\format_alphanumeric_data\obj\Debug\net7.0\format_alphanumeric_data.pdb
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\format_alphanumeric_data\obj\Debug\net7.0\format_alphanumeric_data.genruntimeconfig.cache
+G:\Programming\courses\freeCodeCamp\csharp\03_data_types\format_alphanumeric_data\obj\Debug\net7.0\ref\format_alphanumeric_data.dll
