@@ -19,5 +19,12 @@ class Program
         Console.WriteLine($"{firstWord} {secondWord}!");
         Console.WriteLine($"{secondWord} {firstWord}!");
         Console.WriteLine($"{firstWord} {firstWord} {firstWord}!");
+
+        Console.WriteLine("");
+        Console.WriteLine("Formatting currency values...");
+
+        decimal price = 123.45m;
+        int discount = 50;
+        Console.WriteLine($"Price: {price:C} (Save {discount:C})");
     }
 }
