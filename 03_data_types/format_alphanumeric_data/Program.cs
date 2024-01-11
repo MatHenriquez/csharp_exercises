@@ -46,5 +46,8 @@ class Program
         decimal salePrice = 59.99m;
         string yourDiscount = String.Format("You saved {0:C2} off the regular {1:C2} price. ", (regularPrice - salePrice), regularPrice);
         Console.WriteLine(yourDiscount);
+
+        yourDiscount += $"A discount of {((regularPrice - salePrice) / regularPrice):P2}!";
+        Console.WriteLine(yourDiscount);
     }
 }
