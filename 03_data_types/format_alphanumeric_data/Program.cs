@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello");
+        string firstWord = "Hello";
+        string secondWord = "World";
+        string message = string.Format("{0} {1}!", firstWord, secondWord);
+        Console.WriteLine(message);
     }
 }
