@@ -10,5 +10,8 @@ class Program
         Console.WriteLine(message); // Hello World!
         Console.WriteLine("{1} {0}!", firstWord, secondWord); // World Hello!
         Console.WriteLine("{0} {0} {0}!", firstWord, secondWord); // Hello Hello Hello!
+        Console.WriteLine($"{firstWord} {secondWord}!");
+        Console.WriteLine($"{secondWord} {firstWord}!");
+        Console.WriteLine($"{firstWord} {firstWord} {firstWord}!");
     }
 }
