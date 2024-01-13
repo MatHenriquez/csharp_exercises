@@ -66,5 +66,9 @@ class Program
         string input = "Pad this";
         Console.WriteLine(input.PadLeft(12)); // new string's length is 12 (8 chars + 4 blank spaces on the left).
         Console.WriteLine(input.PadRight(12)); // new string's length is 12 (8 chars + 4 blank spaces on the rigth).
+
+        // Overloaded methods
+        Console.WriteLine(input.PadLeft(12, '-')); 
+        Console.WriteLine(input.PadRight(12, '-'));
     }
 }
