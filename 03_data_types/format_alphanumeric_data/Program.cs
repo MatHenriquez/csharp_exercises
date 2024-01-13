@@ -124,8 +124,6 @@ class Program
 
         Console.WriteLine(comparisonMessage);
 
-        Console.WriteLine($"\nResult...\nApproves: {completeMessage == comparisonMessage}");
-
         // Microsoft's solution
 
         //string customerName = "Ms. Barros";
