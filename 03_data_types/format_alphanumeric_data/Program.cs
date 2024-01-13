@@ -49,5 +49,14 @@ class Program
 
         yourDiscount += $"A discount of {((regularPrice - salePrice) / regularPrice):P2}!";
         Console.WriteLine(yourDiscount);
+
+        // Shares exercise
+        int invoiceNumber = 1021;
+        decimal productShares = 25.4568m;
+        decimal subtotal = 2750.00m;
+        decimal taxPercentage = .15825m;
+        decimal total = 3185.19m;
+
+        Console.WriteLine($"Invoice Number Number: {invoiceNumber}");
     }
 }
