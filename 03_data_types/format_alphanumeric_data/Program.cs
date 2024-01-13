@@ -1,7 +1,4 @@
-﻿using Microsoft.VisualBasic;
-
-namespace Alphanumeric_Data;
-
+﻿namespace Alphanumeric_Data;
 class Program
 {
     static void Main(string[] args)
@@ -108,14 +105,25 @@ class Program
         decimal newReturn = 0.13125m;
         decimal newProfit = 63000000.0m;
 
+        //Magic Yield         12.75 %   $55,000,000.00      
+        //Glorious Future     13.13 %   $63,000,000.00  
+
         // Your logic here
+
+        string completeMessage = $"Dear {customerName},\nAs a customer of our {currentProduct} offering we are excited to tell you about a new financial product that would dramatically increase your return.\n\nCurrently, you own {currentShares:N2} shares at a return of {currentReturn:P2}.\n\nOur new product, {newProduct} offers a return of {newReturn:P2}. Given your current volume, your potential profit would be {newProfit:C2}.\n\nHere's a quick comparison:\n\n{currentProduct.PadRight(19)} {currentReturn:P2} {"".PadRight(1)} {currentProfit:C2}\n{newProduct.PadRight(19)} {newReturn:P2} {"".PadRight(1)} {newProfit:C2}";
+
+        Console.WriteLine("");
+        Console.WriteLine(completeMessage);
+        Console.WriteLine("");
 
         Console.WriteLine("Here's a quick comparison:\n");
 
-        string comparisonMessage = "";
+        string comparisonMessage = "Dear Ms. Barros,\r\nAs a customer of our Magic Yield offering we are excited to tell you about a new financial product that would dramatically increase your return.\r\n\r\nCurrently, you own 2,975,000.00 shares at a return of 12.75 %.\r\n\r\nOur new product, Glorious Future offers a return of 13.13 %. Given your current volume, your potential profit would be $ 63,000,000.00.\r\n\r\nHere's a quick comparison:\r\n\r\nMagic Yield         12.75 %   $55,000,000.00      \r\nGlorious Future     13.13 %   $63,000,000.00  ";
 
         // Your logic here
 
         Console.WriteLine(comparisonMessage);
+
+        Console.WriteLine($"\nResult...\nApproves: {completeMessage == comparisonMessage}");
     }
 }
