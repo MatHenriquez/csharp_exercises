@@ -63,12 +63,21 @@ class Program
         //Console.WriteLine($"        Tax: {taxPercentage:P2}");
         //Console.WriteLine($"    Total Billed: {total:C}");
 
-        string input = "Pad this";
-        Console.WriteLine(input.PadLeft(12)); // new string's length is 12 (8 chars + 4 blank spaces on the left).
-        Console.WriteLine(input.PadRight(12)); // new string's length is 12 (8 chars + 4 blank spaces on the rigth).
+        //string input = "Pad this";
+        //Console.WriteLine(input.PadLeft(12)); // new string's length is 12 (8 chars + 4 blank spaces on the left).
+        //Console.WriteLine(input.PadRight(12)); // new string's length is 12 (8 chars + 4 blank spaces on the rigth).
 
-        // Overloaded methods
-        Console.WriteLine(input.PadLeft(12, '-')); 
-        Console.WriteLine(input.PadRight(12, '-'));
+        //// Overloaded methods
+        //Console.WriteLine(input.PadLeft(12, '-')); 
+        //Console.WriteLine(input.PadRight(12, '-'));
+
+        string paymentId = "769C";
+        string payeeName = "Mr. Stephen Ortega";
+        string paymentAmount = "5,000.0";
+        var formattedLine = paymentId.PadRight(6);
+        formattedLine += payeeName.PadRight(24);
+        formattedLine += paymentAmount.PadLeft(10);
+
+        Console.WriteLine(formattedLine);
     }
 }
