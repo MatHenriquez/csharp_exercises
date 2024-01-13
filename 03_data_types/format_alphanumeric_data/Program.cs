@@ -1,4 +1,6 @@
-﻿namespace Alphanumeric_Data;
+﻿using Microsoft.VisualBasic;
+
+namespace Alphanumeric_Data;
 
 class Program
 {
@@ -71,14 +73,49 @@ class Program
         //Console.WriteLine(input.PadLeft(12, '-')); 
         //Console.WriteLine(input.PadRight(12, '-'));
 
-        string paymentId = "769C";
-        string payeeName = "Mr. Stephen Ortega";
-        string paymentAmount = "5,000.0";
-        var formattedLine = paymentId.PadRight(6);
-        formattedLine += payeeName.PadRight(24);
-        formattedLine += paymentAmount.PadLeft(10);
+        //string paymentId = "769C";
+        //string payeeName = "Mr. Stephen Ortega";
+        //string paymentAmount = "5,000.0";
+        //var formattedLine = paymentId.PadRight(6);
+        //formattedLine += payeeName.PadRight(24);
+        //formattedLine += paymentAmount.PadLeft(10);
 
-        Console.WriteLine("1234567890123456789012345678901234567890");
-        Console.WriteLine(formattedLine);
+        //Console.WriteLine("1234567890123456789012345678901234567890");
+        //Console.WriteLine(formattedLine);
+
+        // Exercise
+
+        //Dear Ms. Barros,
+        //As a customer of our Magic Yield offering we are excited to tell you about a new financial product that would dramatically increase your return.
+
+        //Currently, you own 2,975,000.00 shares at a return of 12.75 %.
+
+        //Our new product, Glorious Future offers a return of 13.13 %.Given your current volume, your potential profit would be ¤63,000,000.00.
+
+        //Here's a quick comparison:
+
+        //Magic Yield         12.75 %   $55,000,000.00
+        //Glorious Future     13.13 %   $63,000,000.00
+
+        string customerName = "Ms. Barros";
+
+        string currentProduct = "Magic Yield";
+        int currentShares = 2975000;
+        decimal currentReturn = 0.1275m;
+        decimal currentProfit = 55000000.0m;
+
+        string newProduct = "Glorious Future";
+        decimal newReturn = 0.13125m;
+        decimal newProfit = 63000000.0m;
+
+        // Your logic here
+
+        Console.WriteLine("Here's a quick comparison:\n");
+
+        string comparisonMessage = "";
+
+        // Your logic here
+
+        Console.WriteLine(comparisonMessage);
     }
 }
