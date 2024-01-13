@@ -64,6 +64,7 @@ class Program
         //Console.WriteLine($"    Total Billed: {total:C}");
 
         string input = "Pad this";
-        Console.WriteLine(input.PadLeft(12)); // new string's length is 12 (8 chars + 4 blank spaces).
+        Console.WriteLine(input.PadLeft(12)); // new string's length is 12 (8 chars + 4 blank spaces on the left).
+        Console.WriteLine(input.PadRight(12)); // new string's length is 12 (8 chars + 4 blank spaces on the rigth).
     }
 }
